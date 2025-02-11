@@ -1,0 +1,235 @@
+---- Minecraft Crash Report ----
+// My bad.
+
+Time: 2025-02-10 23:11:07
+Description: Mod loading error has occurred
+
+java.lang.Exception: Mod Loading has failed
+	at net.minecraftforge.logging.CrashReportExtender.dumpModLoadingCrashReport(CrashReportExtender.java:55) ~[forge-1.19.2-43.4.2-universal.jar%23136!/:?] {re:classloading}
+	at net.minecraftforge.server.loading.ServerModLoader.load(ServerModLoader.java:39) ~[forge-1.19.2-43.4.2-universal.jar%23136!/:?] {re:classloading}
+	at net.minecraft.server.Main.main(Main.java:113) ~[server-1.19.2-20220805.130853-srg.jar%23131!/:?] {re:classloading}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?] {}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?] {}
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?] {}
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?] {}
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$launchService$0(CommonServerLaunchHandler.java:29) ~[fmlloader-1.19.2-43.4.2.jar%2367!/:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-10.0.8.jar%2354!/:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-10.0.8.jar%2354!/:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-10.0.8.jar%2354!/:?] {}
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:106) [modlauncher-10.0.8.jar%2354!/:?] {}
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:77) [modlauncher-10.0.8.jar%2354!/:?] {}
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-10.0.8.jar%2354!/:?] {}
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-10.0.8.jar%2354!/:?] {}
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) [bootstraplauncher-1.1.2.jar:?] {}
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: main
+Suspected Mods: NONE
+Stacktrace:
+	at jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641) ~[?:?] {}
+-- MOD undead_revamp2 --
+Details:
+	Caused by 0: java.lang.NoClassDefFoundError: software/bernie/geckolib3/core/IAnimatable
+		at java.lang.ClassLoader.defineClass1(Native Method) ~[?:?] {}
+		at java.lang.ClassLoader.defineClass(ClassLoader.java:1017) ~[?:?] {}
+		at cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:119) ~[securejarhandler-2.1.4.jar:?] {}
+		at cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219) ~[securejarhandler-2.1.4.jar:?] {}
+		at cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229) ~[securejarhandler-2.1.4.jar:?] {}
+		at cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219) ~[securejarhandler-2.1.4.jar:?] {}
+		at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:135) ~[securejarhandler-2.1.4.jar:?] {}
+		at java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?] {}
+		at net.mcreator.undeadrevamp.init.UndeadRevamp2ModEntities.<clinit>(UndeadRevamp2ModEntities.java:64) ~[THEUNDEADREVAMPED_1.0c_1.19.2%5BanotherLAST%201.19.2%5D.jar%23125!/:?] {re:classloading}
+		at net.mcreator.undeadrevamp.UndeadRevamp2Mod.<init>(UndeadRevamp2Mod.java:67) ~[THEUNDEADREVAMPED_1.0c_1.19.2%5BanotherLAST%201.19.2%5D.jar%23125!/:?] {re:classloading}
+		at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?] {}
+		at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[?:?] {}
+		at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?] {}
+		at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[?:?] {}
+		at java.lang.reflect.Constructor.newInstance(Constructor.java:481) ~[?:?] {}
+		at net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:70) ~[javafmllanguage-1.19.2-43.4.2.jar%23133!/:?] {}
+		at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$4(ModContainer.java:122) ~[fmlcore-1.19.2-43.4.2.jar%23132!/:?] {}
+		at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?] {}
+		at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?] {}
+		at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?] {}
+		at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?] {}
+		at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?] {}
+		at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?] {}
+		at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?] {}
+
+	Mod File: /workspaces/trabajopractico/servidor_minecraft/mods/THEUNDEADREVAMPED_1.0c_1.19.2[anotherLAST 1.19.2].jar
+	Failure message: Undead_revamp2 (undead_revamp2) has failed to load correctly
+		java.lang.NoClassDefFoundError: software/bernie/geckolib3/core/IAnimatable
+	Mod Version: 1.0.0
+	Mod Issue URL: NOT PROVIDED
+	Exception message: java.lang.ClassNotFoundException: software.bernie.geckolib3.core.IAnimatable
+Stacktrace:
+	at jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641) ~[?:?] {}
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?] {}
+	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:137) ~[securejarhandler-2.1.4.jar:?] {}
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?] {}
+	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:137) ~[securejarhandler-2.1.4.jar:?] {}
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?] {}
+	at java.lang.ClassLoader.defineClass1(Native Method) ~[?:?] {}
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:1017) ~[?:?] {}
+	at cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:119) ~[securejarhandler-2.1.4.jar:?] {}
+	at cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219) ~[securejarhandler-2.1.4.jar:?] {}
+	at cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229) ~[securejarhandler-2.1.4.jar:?] {}
+	at cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219) ~[securejarhandler-2.1.4.jar:?] {}
+	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:135) ~[securejarhandler-2.1.4.jar:?] {}
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?] {}
+	at net.mcreator.undeadrevamp.init.UndeadRevamp2ModEntities.<clinit>(UndeadRevamp2ModEntities.java:64) ~[THEUNDEADREVAMPED_1.0c_1.19.2%5BanotherLAST%201.19.2%5D.jar%23125!/:?] {re:classloading}
+	at net.mcreator.undeadrevamp.UndeadRevamp2Mod.<init>(UndeadRevamp2Mod.java:67) ~[THEUNDEADREVAMPED_1.0c_1.19.2%5BanotherLAST%201.19.2%5D.jar%23125!/:?] {re:classloading}
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?] {}
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[?:?] {}
+	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?] {}
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[?:?] {}
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:481) ~[?:?] {}
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:70) ~[javafmllanguage-1.19.2-43.4.2.jar%23133!/:?] {}
+	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$4(ModContainer.java:122) ~[fmlcore-1.19.2-43.4.2.jar%23132!/:?] {}
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?] {}
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?] {}
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?] {}
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?] {}
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?] {}
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?] {}
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?] {}
+
+
+-- MOD undead_unleashed --
+Details:
+	Caused by 0: java.lang.NoClassDefFoundError: software/bernie/geckolib3/core/IAnimatable
+		at java.lang.ClassLoader.defineClass1(Native Method) ~[?:?] {}
+		at java.lang.ClassLoader.defineClass(ClassLoader.java:1017) ~[?:?] {}
+		at cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:119) ~[securejarhandler-2.1.4.jar:?] {}
+		at cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219) ~[securejarhandler-2.1.4.jar:?] {}
+		at cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229) ~[securejarhandler-2.1.4.jar:?] {}
+		at cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219) ~[securejarhandler-2.1.4.jar:?] {}
+		at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:135) ~[securejarhandler-2.1.4.jar:?] {}
+		at java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?] {}
+		at net.mcreator.undead_unleashed.init.UndeadUnleashedModEntities.<clinit>(UndeadUnleashedModEntities.java:36) ~[UndeadUnleashed-1.1.1-1.19.2.jar%23127!/:?] {re:classloading}
+		at net.mcreator.undead_unleashed.UndeadUnleashedMod.<init>(UndeadUnleashedMod.java:65) ~[UndeadUnleashed-1.1.1-1.19.2.jar%23127!/:?] {re:classloading}
+		at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?] {}
+		at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[?:?] {}
+		at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?] {}
+		at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[?:?] {}
+		at java.lang.reflect.Constructor.newInstance(Constructor.java:481) ~[?:?] {}
+		at net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:70) ~[javafmllanguage-1.19.2-43.4.2.jar%23133!/:?] {}
+		at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$4(ModContainer.java:122) ~[fmlcore-1.19.2-43.4.2.jar%23132!/:?] {}
+		at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?] {}
+		at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?] {}
+		at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?] {}
+		at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?] {}
+		at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?] {}
+		at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?] {}
+		at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?] {}
+
+	Mod File: /workspaces/trabajopractico/servidor_minecraft/mods/UndeadUnleashed-1.1.1-1.19.2.jar
+	Failure message: Undead Unleashed (undead_unleashed) has failed to load correctly
+		java.lang.NoClassDefFoundError: software/bernie/geckolib3/core/IAnimatable
+	Mod Version: 1.1.0
+	Mod Issue URL: NOT PROVIDED
+	Exception message: java.lang.ClassNotFoundException: software.bernie.geckolib3.core.IAnimatable
+Stacktrace:
+	at jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641) ~[?:?] {}
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?] {}
+	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:137) ~[securejarhandler-2.1.4.jar:?] {}
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?] {}
+	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:137) ~[securejarhandler-2.1.4.jar:?] {}
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?] {}
+	at java.lang.ClassLoader.defineClass1(Native Method) ~[?:?] {}
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:1017) ~[?:?] {}
+	at cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:119) ~[securejarhandler-2.1.4.jar:?] {}
+	at cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219) ~[securejarhandler-2.1.4.jar:?] {}
+	at cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229) ~[securejarhandler-2.1.4.jar:?] {}
+	at cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219) ~[securejarhandler-2.1.4.jar:?] {}
+	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:135) ~[securejarhandler-2.1.4.jar:?] {}
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?] {}
+	at net.mcreator.undead_unleashed.init.UndeadUnleashedModEntities.<clinit>(UndeadUnleashedModEntities.java:36) ~[UndeadUnleashed-1.1.1-1.19.2.jar%23127!/:?] {re:classloading}
+	at net.mcreator.undead_unleashed.UndeadUnleashedMod.<init>(UndeadUnleashedMod.java:65) ~[UndeadUnleashed-1.1.1-1.19.2.jar%23127!/:?] {re:classloading}
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?] {}
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[?:?] {}
+	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?] {}
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[?:?] {}
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:481) ~[?:?] {}
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:70) ~[javafmllanguage-1.19.2-43.4.2.jar%23133!/:?] {}
+	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$4(ModContainer.java:122) ~[fmlcore-1.19.2-43.4.2.jar%23132!/:?] {}
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?] {}
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?] {}
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?] {}
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?] {}
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?] {}
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?] {}
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?] {}
+
+
+-- System Details --
+Details:
+	Minecraft Version: 1.19.2
+	Minecraft Version ID: 1.19.2
+	Operating System: Linux (amd64) version 6.5.0-1025-azure
+	Java Version: 17.0.14, Ubuntu
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Ubuntu
+	Memory: 1312247344 bytes (1251 MiB) / 2147483648 bytes (2048 MiB) up to 12884901888 bytes (12288 MiB)
+	CPUs: 4
+	Processor Vendor: AuthenticAMD
+	Processor Name: AMD EPYC 7763 64-Core Processor
+	Identifier: AuthenticAMD Family 25 Model 1 Stepping 1
+	Microarchitecture: Zen 3
+	Frequency (GHz): -0.00
+	Number of physical packages: 1
+	Number of physical CPUs: 2
+	Number of logical CPUs: 4
+	Graphics card #0 name: unknown
+	Graphics card #0 vendor: unknown
+	Graphics card #0 VRAM (MB): 0.00
+	Graphics card #0 deviceId: unknown
+	Graphics card #0 versionInfo: unknown
+	Virtual memory max (MB): 7990.52
+	Virtual memory used (MB): 4874.61
+	Swap memory total (MB): 0.00
+	Swap memory used (MB): 0.00
+	JVM Flags: 2 total; -Xms2G -Xmx12G
+	ModLauncher: 10.0.8+10.0.8+main.0ef7e830
+	ModLauncher launch target: forgeserver
+	ModLauncher naming: srg
+	ModLauncher services: 
+		mixin-0.8.5.jar mixin PLUGINSERVICE 
+		eventbus-6.0.3.jar eventbus PLUGINSERVICE 
+		fmlloader-1.19.2-43.4.2.jar slf4jfixer PLUGINSERVICE 
+		fmlloader-1.19.2-43.4.2.jar object_holder_definalize PLUGINSERVICE 
+		fmlloader-1.19.2-43.4.2.jar runtime_enum_extender PLUGINSERVICE 
+		fmlloader-1.19.2-43.4.2.jar capability_token_subclass PLUGINSERVICE 
+		accesstransformers-8.0.4.jar accesstransformer PLUGINSERVICE 
+		fmlloader-1.19.2-43.4.2.jar runtimedistcleaner PLUGINSERVICE 
+		modlauncher-10.0.8.jar mixin TRANSFORMATIONSERVICE 
+		modlauncher-10.0.8.jar fml TRANSFORMATIONSERVICE 
+	FML Language Providers: 
+		minecraft@1.0
+		lowcodefml@null
+		javafml@null
+	Mod List: 
+		server-1.19.2-20220805.130853-srg.jar             |Minecraft                     |minecraft                     |1.19.2              |COMMON_SET|Manifest: NOSIGNATURE
+		TConstruct-1.19.2-3.8.5.58.jar                    |Tinkers' Construct            |tconstruct                    |3.8.5.58            |COMMON_SET|Manifest: NOSIGNATURE
+		TreeChop-1.19.2-forge-0.19.1.jar                  |HT's TreeChop                 |treechop                      |0.19.0              |COMMON_SET|Manifest: NOSIGNATURE
+		mixinextras-forge-0.2.0-beta.9.jar                |MixinExtras                   |mixinextras                   |0.2.0-beta.9        |COMMON_SET|Manifest: NOSIGNATURE
+		jei-1.19.2-forge-11.8.1.1034.jar                  |Just Enough Items             |jei                           |11.8.1.1034         |COMMON_SET|Manifest: NOSIGNATURE
+		forge-1.19.2-43.4.2-universal.jar                 |Forge                         |forge                         |43.4.2              |COMMON_SET|Manifest: 84:ce:76:e8:45:35:e4:0e:63:86:df:47:59:80:0f:67:6c:c1:5f:6e:5f:4d:b3:54:47:1a:9f:7f:ed:5e:f2:90
+		curios-forge-1.19.2-5.1.6.4.jar                   |Curios API                    |curios                        |1.19.2-5.1.6.4      |COMMON_SET|Manifest: NOSIGNATURE
+		Mantle-1.19.2-1.10.48.jar                         |Mantle                        |mantle                        |1.10.48             |COMMON_SET|Manifest: NOSIGNATURE
+		Xaeros_Minimap_25.0.0_Forge_1.19.1.jar            |Xaero's Minimap               |xaerominimap                  |25.0.0              |COMMON_SET|Manifest: NOSIGNATURE
+		THEUNDEADREVAMPED_1.0c_1.19.2[anotherLAST 1.19.2].|Undead_revamp2                |undead_revamp2                |1.0.0               |ERROR     |Manifest: NOSIGNATURE
+		Croptopia-1.19.2-FORGE-2.2.2.jar                  |Croptopia                     |croptopia                     |2.2.2               |COMMON_SET|Manifest: NOSIGNATURE
+		XaerosWorldMap_1.39.2_Forge_1.19.1.jar            |Xaero's World Map             |xaeroworldmap                 |1.39.2              |COMMON_SET|Manifest: NOSIGNATURE
+		UndeadUnleashed-1.1.1-1.19.2.jar                  |Undead Unleashed              |undead_unleashed              |1.1.0               |ERROR     |Manifest: NOSIGNATURE
+		citadel-2.1.4-1.19.jar                            |Citadel                       |citadel                       |2.1.4               |COMMON_SET|Manifest: NOSIGNATURE
+		alexsmobs-1.21.1.jar                              |Alex's Mobs                   |alexsmobs                     |1.21.1              |COMMON_SET|Manifest: NOSIGNATURE
+		iceandfire-1.19.2-2.1.13-beta-3.jar               |Ice and Fire                  |iceandfire                    |1.19.2-2.1.13+build.|COMMON_SET|Manifest: NOSIGNATURE
+		AutoRegLib-1.8.2-55.jar                           |AutoRegLib                    |autoreglib                    |1.8.2-55            |COMMON_SET|Manifest: NOSIGNATURE
+		Quark-3.4-418.jar                                 |Quark                         |quark                         |3.4-418             |COMMON_SET|Manifest: NOSIGNATURE
+		[1.19.2] SecurityCraft v1.9.6.1.jar               |SecurityCraft                 |securitycraft                 |1.9.6.1             |COMMON_SET|Manifest: NOSIGNATURE
+	Crash Report UUID: 710386be-91fa-4b33-bff9-aeeb1bfe6de0
+	FML: 43.4
+	Forge: net.minecraftforge:43.4.2

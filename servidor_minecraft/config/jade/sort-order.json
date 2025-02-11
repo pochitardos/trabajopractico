@@ -16,6 +16,7 @@
   "minecraft:energy_storage": null,
   "minecraft:progress": null,
   "jade:object_name": null,
+  "corpse:corpse": null,
   "minecraft:brewing_stand": null,
   "minecraft:beehive": null,
   "minecraft:command_block": null,
@@ -32,5 +33,6 @@
   "minecraft:fluid": null,
   "minecraft:energy_storage": null,
   "minecraft:progress": null,
-  "jade:object_name": null
+  "jade:object_name": null,
+  "corpse:corpse": null
 }
