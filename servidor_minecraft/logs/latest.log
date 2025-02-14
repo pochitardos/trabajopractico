@@ -1,408 +1,408 @@
-[14Feb2025 22:24:55.763] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 43.4.2, --fml.mcVersion, 1.19.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220805.130853, nogui]
-[14Feb2025 22:24:55.767] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.8+10.0.8+main.0ef7e830 starting: java version 17.0.14 by Ubuntu; OS Linux arch amd64 version 6.5.0-1025-azure
-[14Feb2025 22:24:56.909] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/trabajopractico/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2363!/ Service=ModLauncher Env=SERVER
-[14Feb2025 22:24:57.308] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/trabajopractico/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.19.2-43.4.2/fmlcore-1.19.2-43.4.2.jar is missing mods.toml file
-[14Feb2025 22:24:57.309] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/trabajopractico/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.19.2-43.4.2/javafmllanguage-1.19.2-43.4.2.jar is missing mods.toml file
-[14Feb2025 22:24:57.311] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/trabajopractico/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.19.2-43.4.2/lowcodelanguage-1.19.2-43.4.2.jar is missing mods.toml file
-[14Feb2025 22:24:57.312] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/trabajopractico/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.19.2-43.4.2/mclanguage-1.19.2-43.4.2.jar is missing mods.toml file
-[14Feb2025 22:24:57.474] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 3 dependencies adding them to mods collection
-[14Feb2025 22:24:59.720] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[14Feb2025 22:24:59.821] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
-[14Feb2025 22:24:59.863] [main/WARN] [mixin/]: Reference map 'arclight.mixins.refmap.json' for epicsamurai.mixins.json could not be read. If this is a development environment you can ignore this message
-[14Feb2025 22:24:59.928] [main/INFO] [Canary/]: Loaded configuration file for Canary: 117 options available, 0 override(s) found
-[14Feb2025 22:25:00.028] [main/WARN] [mixin/]: Reference map 'moblassos.refmap.json' for moblassos.common.mixins.json could not be read. If this is a development environment you can ignore this message
-[14Feb2025 22:25:00.038] [main/INFO] [Embeddium/]: Loaded configuration file for Embeddium: 73 options available, 0 override(s) found
-[14Feb2025 22:25:00.125] [main/WARN] [mixin/]: Error loading class: atomicstryker/multimine/client/MultiMineClient (java.lang.ClassNotFoundException: atomicstryker.multimine.client.MultiMineClient)
-[14Feb2025 22:25:00.126] [main/WARN] [mixin/]: @Mixin target atomicstryker.multimine.client.MultiMineClient was not found treechop.forge.compat.mixins.json:MultiMineMixin
-[14Feb2025 22:25:00.953] [main/WARN] [mixin/]: Error loading class: noobanidus/mods/lootr/config/ConfigManager (java.lang.ClassNotFoundException: noobanidus.mods.lootr.config.ConfigManager)
-[14Feb2025 22:25:01.624] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/renderer/entity/PhantomRenderer (java.lang.ClassNotFoundException: net.minecraft.client.renderer.entity.PhantomRenderer)
-[14Feb2025 22:25:01.624] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.renderer.entity.PhantomRenderer was not found mixins.deeperdarker.json:PhantomRendererMixin
-[14Feb2025 22:25:08.006] [main/INFO] [net.minecraft.util.datafix.DataFixers/]: Building unoptimized datafixer
-[14Feb2025 22:25:09.331] [main/INFO] [quark/]: TerraBlender not found, using injection method
-[14Feb2025 22:25:11.101] [modloading-worker-0/INFO] [Spartan Shields/]: Constructing Mod: Spartan Shields
-[14Feb2025 22:25:12.146] [modloading-worker-0/INFO] [me.drex.antixray.AntiXray/]: Successfully initialized antixray on forge
-[14Feb2025 22:25:12.407] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
-[14Feb2025 22:25:12.423] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 43.4.2, for MC 1.19.2 with MCP 20220805.130853
-[14Feb2025 22:25:12.423] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v43.4.2 Initialized
-[14Feb2025 22:25:12.442] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for mod puzzleslib
-[14Feb2025 22:25:12.492] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.experimental.module.VariantSelectorModule
-[14Feb2025 22:25:12.513] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.experimental.module.NarratorReadoutModule
-[14Feb2025 22:25:12.513] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.experimental.module.ClimateControlRemoverModule
-[14Feb2025 22:25:12.514] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.experimental.module.EnchantmentsBegoneModule
-[14Feb2025 22:25:12.516] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.experimental.module.GameNerfsModule
-[14Feb2025 22:25:12.516] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.experimental.module.SpawnerReplacerModule
-[14Feb2025 22:25:12.518] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.experimental.module.AdjustableChatModule
-[14Feb2025 22:25:12.524] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.experimental.module.VillagerRerollingReworkModule
-[14Feb2025 22:25:12.531] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.experimental.module.OverlayShaderModule
-[14Feb2025 22:25:12.538] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.experimental.module.EnchantmentPredicatesModule
-[14Feb2025 22:25:12.540] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.VariantLaddersModule
-[14Feb2025 22:25:12.545] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.VariantBookshelvesModule
-[14Feb2025 22:25:12.546] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.BambooBackportModule
-[14Feb2025 22:25:12.547] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.CompressedBlocksModule
-[14Feb2025 22:25:12.566] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.MorePottedPlantsModule
-[14Feb2025 22:25:12.575] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.DuskboundBlocksModule
-[14Feb2025 22:25:12.576] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.WoodenPostsModule
-[14Feb2025 22:25:12.577] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.ThatchModule
-[14Feb2025 22:25:12.578] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.MoreStoneVariantsModule
-[14Feb2025 22:25:12.579] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.ShearVinesModule
-[14Feb2025 22:25:12.583] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.NetherBrickFenceGateModule
-[14Feb2025 22:25:12.583] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.GoldBarsModule
-[14Feb2025 22:25:12.585] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.RopeModule
-[14Feb2025 22:25:12.588] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.CelebratoryLampsModule
-[14Feb2025 22:25:12.589] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.SoulSandstoneModule
-[14Feb2025 22:25:12.591] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.VariantChestsModule
-[14Feb2025 22:25:12.606] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.LeafCarpetModule
-[14Feb2025 22:25:12.613] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.FramedGlassModule
-[14Feb2025 22:25:12.613] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.VerticalPlanksModule
-[14Feb2025 22:25:12.614] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.VariantFurnacesModule
-[14Feb2025 22:25:12.622] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.HedgesModule
-[14Feb2025 22:25:12.624] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.HollowLogsModule
-[14Feb2025 22:25:12.626] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.MidoriModule
-[14Feb2025 22:25:12.626] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.RainbowLampsModule
-[14Feb2025 22:25:12.628] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.VerticalSlabsModule
-[14Feb2025 22:25:12.636] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.ShinglesModule
-[14Feb2025 22:25:12.637] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.SturdyStoneModule
-[14Feb2025 22:25:12.640] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.StoolsModule
-[14Feb2025 22:25:12.641] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.RawMetalBricksModule
-[14Feb2025 22:25:12.642] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.MoreMudBlocksModule
-[14Feb2025 22:25:12.643] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.GrateModule
-[14Feb2025 22:25:12.649] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.JapanesePaletteModule
-[14Feb2025 22:25:12.652] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.MoreBrickTypesModule
-[14Feb2025 22:25:12.654] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.GlassItemFrameModule
-[14Feb2025 22:25:12.673] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.IndustrialPaletteModule
-[14Feb2025 22:25:12.675] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.world.module.NetherObsidianSpikesModule
-[14Feb2025 22:25:12.678] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.world.module.PermafrostModule
-[14Feb2025 22:25:12.692] [modloading-worker-0/INFO] [be.florens.expandability.ExpandAbility/]: ExpandAbility here, who dis?
-[14Feb2025 22:25:12.699] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.world.module.FairyRingsModule
-[14Feb2025 22:25:12.700] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.world.module.BigStoneClustersModule
-[14Feb2025 22:25:12.708] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.world.module.SpiralSpiresModule
-[14Feb2025 22:25:12.713] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for mod moblassos
-[14Feb2025 22:25:12.735] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.world.module.AncientWoodModule
-[14Feb2025 22:25:12.745] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.world.module.NewStoneTypesModule
-[14Feb2025 22:25:12.752] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.world.module.BlossomTreesModule
-[14Feb2025 22:25:12.763] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.world.module.GlimmeringWealdModule
-[14Feb2025 22:25:12.773] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.world.module.MonsterBoxModule
-[14Feb2025 22:25:12.774] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.world.module.AzaleaWoodModule
-[14Feb2025 22:25:12.790] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.world.module.NoMoreLavaPocketsModule
-[14Feb2025 22:25:12.791] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.world.module.CorundumModule
-[14Feb2025 22:25:12.793] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.world.module.ChorusVegetationModule
-[14Feb2025 22:25:12.795] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.client.module.CameraModule
-[14Feb2025 22:25:12.811] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.client.module.ElytraIndicatorModule
-[14Feb2025 22:25:12.812] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.client.module.ImprovedTooltipsModule
-[14Feb2025 22:25:12.813] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.client.module.GreenerGrassModule
-[14Feb2025 22:25:12.832] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.client.module.BucketsShowInhabitantsModule
-[14Feb2025 22:25:12.834] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.client.module.SoulCandlesModule
-[14Feb2025 22:25:12.835] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.client.module.AutoWalkKeybindModule
-[14Feb2025 22:25:12.837] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.client.module.VariantAnimalTexturesModule
-[14Feb2025 22:25:12.845] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.client.module.MicrocraftingHelperModule
-[14Feb2025 22:25:12.849] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.client.module.UsesForCursesModule
-[14Feb2025 22:25:12.852] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.client.module.WoolShutsUpMinecartsModule
-[14Feb2025 22:25:12.854] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.client.module.BackButtonKeybindModule
-[14Feb2025 22:25:12.863] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.client.module.ChestSearchingModule
-[14Feb2025 22:25:12.866] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.client.module.LongRangePickBlockModule
-[14Feb2025 22:25:12.871] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.client.module.UsageTickerModule
-[14Feb2025 22:25:12.874] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.automation.module.PistonsMoveTileEntitiesModule
-[14Feb2025 22:25:12.878] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.automation.module.EnderWatcherModule
-[14Feb2025 22:25:12.881] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.automation.module.RedstoneRandomizerModule
-[14Feb2025 22:25:12.884] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.automation.module.FeedingTroughModule
-[14Feb2025 22:25:12.889] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.automation.module.MetalButtonsModule
-[14Feb2025 22:25:12.891] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.automation.module.IronRodModule
-[14Feb2025 22:25:12.893] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.automation.module.ObsidianPlateModule
-[14Feb2025 22:25:12.893] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.automation.module.ChainsConnectBlocksModule
-[14Feb2025 22:25:12.894] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.automation.module.GravisandModule
-[14Feb2025 22:25:12.896] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.automation.module.JukeboxAutomationModule
-[14Feb2025 22:25:12.896] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.automation.module.DispensersPlaceBlocksModule
-[14Feb2025 22:25:12.898] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.automation.module.ChuteModule
-[14Feb2025 22:25:12.900] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.management.module.QuickArmorSwappingModule
-[14Feb2025 22:25:12.907] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.management.module.ItemSharingModule
-[14Feb2025 22:25:12.910] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.management.module.AutomaticToolRestockModule
-[14Feb2025 22:25:12.917] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.management.module.ExpandedItemInteractionsModule
-[14Feb2025 22:25:12.925] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.management.module.InventorySortingModule
-[14Feb2025 22:25:12.926] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.management.module.HotbarChangerModule
-[14Feb2025 22:25:12.931] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.management.module.EasyTransferingModule
-[14Feb2025 22:25:12.932] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.GoldToolsHaveFortuneModule
-[14Feb2025 22:25:12.934] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.AutomaticRecipeUnlockModule
-[14Feb2025 22:25:12.935] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.UtilityRecipesModule
-[14Feb2025 22:25:12.935] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.PoisonPotatoUsageModule
-[14Feb2025 22:25:12.938] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.BetterElytraRocketModule
-[14Feb2025 22:25:12.939] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.RenewableSporeBlossomsModule
-[14Feb2025 22:25:12.944] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.CoralOnCactusModule
-[14Feb2025 22:25:12.947] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.GlassShardModule
-[14Feb2025 22:25:12.949] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.PigLittersModule
-[14Feb2025 22:25:12.952] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.CampfiresBoostElytraModule
-[14Feb2025 22:25:12.956] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.DyeableItemFramesModule
-[14Feb2025 22:25:12.958] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.SlabsToBlocksModule
-[14Feb2025 22:25:12.960] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.MapWashingModule
-[14Feb2025 22:25:12.967] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.EnhancedLaddersModule
-[14Feb2025 22:25:12.971] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.ReacharoundPlacingModule
-[14Feb2025 22:25:12.974] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.HorsesSwimModule
-[14Feb2025 22:25:12.975] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.SpongeOnWaterPlacementModule
-[14Feb2025 22:25:12.976] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.ArmedArmorStandsModule
-[14Feb2025 22:25:12.978] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.DoubleDoorOpeningModule
-[14Feb2025 22:25:12.979] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.ZombieVillagersOnNormalModule
-[14Feb2025 22:25:12.984] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.HoeHarvestingModule
-[14Feb2025 22:25:12.988] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.EmotesModule
-[14Feb2025 22:25:12.990] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.SlimesToMagmaCubesModule
-[14Feb2025 22:25:12.992] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.SnowGolemPlayerHeadsModule
-[14Feb2025 22:25:12.993] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.VexesDieWithTheirMastersModule
-[14Feb2025 22:25:12.994] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.MoreNoteBlockSoundsModule
-[14Feb2025 22:25:12.995] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.PatTheDogsModule
-[14Feb2025 22:25:12.998] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.GrabChickensModule
-[14Feb2025 22:25:13.000] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.MoreBannerLayersModule
-[14Feb2025 22:25:13.002] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.ReplaceScaffoldingModule
-[14Feb2025 22:25:13.004] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.DiamondRepairModule
-[14Feb2025 22:25:13.007] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.SaferCreaturesModule
-[14Feb2025 22:25:13.009] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.LockRotationModule
-[14Feb2025 22:25:13.010] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.VillagersFollowEmeraldsModule
-[14Feb2025 22:25:13.012] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.CompassesWorkEverywhereModule
-[14Feb2025 22:25:13.013] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.NoDurabilityOnCosmeticsModule
-[14Feb2025 22:25:13.015] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.SpongesBetterModule
-[14Feb2025 22:25:13.018] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.SignEditingModule
-[14Feb2025 22:25:13.022] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.SimpleHarvestModule
-[14Feb2025 22:25:13.024] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.DragonScalesModule
-[14Feb2025 22:25:13.026] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.ShulkerPackingModule
-[14Feb2025 22:25:13.028] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.mobs.module.FoxhoundModule
-[14Feb2025 22:25:13.031] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.mobs.module.WraithModule
-[14Feb2025 22:25:13.036] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.mobs.module.CrabsModule
-[14Feb2025 22:25:13.039] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.mobs.module.ForgottenModule
-[14Feb2025 22:25:13.046] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.mobs.module.ShibaModule
-[14Feb2025 22:25:13.048] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.mobs.module.StonelingsModule
-[14Feb2025 22:25:13.052] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.mobs.module.ToretoiseModule
-[14Feb2025 22:25:13.055] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.BeaconRedirectionModule
-[14Feb2025 22:25:13.058] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.AmbientDiscsModule
-[14Feb2025 22:25:13.065] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.PathfinderMapsModule
-[14Feb2025 22:25:13.069] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.ColorRunesModule
-[14Feb2025 22:25:13.078] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.PickarangModule
-[14Feb2025 22:25:13.087] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.ParrotEggsModule
-[14Feb2025 22:25:13.089] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.TrowelModule
-[14Feb2025 22:25:13.092] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.AbacusModule
-[14Feb2025 22:25:13.094] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.BottledCloudModule
-[14Feb2025 22:25:13.097] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.TorchArrowModule
-[14Feb2025 22:25:13.099] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.BundleRecipeModule
-[14Feb2025 22:25:13.102] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.AncientTomesModule
-[14Feb2025 22:25:13.105] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.EndermoshMusicDiscModule
-[14Feb2025 22:25:13.106] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.SeedPouchModule
-[14Feb2025 22:25:13.109] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.SkullPikesModule
-[14Feb2025 22:25:13.112] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.SlimeInABucketModule
-[14Feb2025 22:25:13.114] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.addons.oddities.module.PipesModule
-[14Feb2025 22:25:13.118] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.addons.oddities.module.BackpackModule
-[14Feb2025 22:25:13.121] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.addons.oddities.module.TinyPotatoModule
-[14Feb2025 22:25:13.126] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.addons.oddities.module.MatrixEnchantingModule
-[14Feb2025 22:25:13.130] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.addons.oddities.module.TotemOfHoldingModule
-[14Feb2025 22:25:13.133] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.addons.oddities.module.CrateModule
-[14Feb2025 22:25:13.136] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.addons.oddities.module.MagnetsModule
-[14Feb2025 22:25:13.141] [modloading-worker-0/INFO] [quark/]: Dispatching Module Step CONSTRUCT
-[14Feb2025 22:25:13.296] [modloading-worker-0/INFO] [quark/]: Loading Module Pistons Move Tile Entities
-[14Feb2025 22:25:13.298] [modloading-worker-0/INFO] [quark/]: Loading Module Ender Watcher
-[14Feb2025 22:25:13.298] [modloading-worker-0/INFO] [quark/]: Loading Module Redstone Randomizer
-[14Feb2025 22:25:13.298] [modloading-worker-0/INFO] [quark/]: Loading Module Feeding Trough
-[14Feb2025 22:25:13.300] [modloading-worker-0/INFO] [quark/]: Loading Module Metal Buttons
-[14Feb2025 22:25:13.301] [modloading-worker-0/INFO] [quark/]: Loading Module Iron Rod
-[14Feb2025 22:25:13.301] [modloading-worker-0/INFO] [quark/]: Loading Module Obsidian Plate
-[14Feb2025 22:25:13.302] [modloading-worker-0/INFO] [quark/]: Loading Module Chains Connect Blocks
-[14Feb2025 22:25:13.302] [modloading-worker-0/INFO] [quark/]: Loading Module Gravisand
-[14Feb2025 22:25:13.302] [modloading-worker-0/INFO] [quark/]: Loading Module Jukebox Automation
-[14Feb2025 22:25:13.304] [modloading-worker-0/INFO] [quark/]: Loading Module Dispensers Place Blocks
-[14Feb2025 22:25:13.304] [modloading-worker-0/INFO] [quark/]: Loading Module Chute
-[14Feb2025 22:25:13.304] [modloading-worker-0/INFO] [quark/]: Loading Module Variant Ladders
-[14Feb2025 22:25:13.305] [modloading-worker-0/INFO] [quark/]: Loading Module Variant Bookshelves
-[14Feb2025 22:25:13.305] [modloading-worker-0/INFO] [quark/]: Loading Module Bamboo Backport
-[14Feb2025 22:25:13.305] [modloading-worker-0/INFO] [quark/]: Loading Module Compressed Blocks
-[14Feb2025 22:25:13.305] [modloading-worker-0/INFO] [quark/]: Loading Module More Potted Plants
-[14Feb2025 22:25:13.306] [modloading-worker-0/INFO] [quark/]: Loading Module Duskbound Blocks
-[14Feb2025 22:25:13.306] [modloading-worker-0/INFO] [quark/]: Loading Module Wooden Posts
-[14Feb2025 22:25:13.306] [modloading-worker-0/INFO] [quark/]: Loading Module Thatch
-[14Feb2025 22:25:13.306] [modloading-worker-0/INFO] [quark/]: Loading Module More Stone Variants
-[14Feb2025 22:25:13.307] [modloading-worker-0/INFO] [quark/]: Loading Module Shear Vines
-[14Feb2025 22:25:13.308] [modloading-worker-0/INFO] [quark/]: Loading Module Nether Brick Fence Gate
-[14Feb2025 22:25:13.308] [modloading-worker-0/INFO] [quark/]: Loading Module Gold Bars
-[14Feb2025 22:25:13.309] [modloading-worker-0/INFO] [quark/]: Loading Module Rope
-[14Feb2025 22:25:13.309] [modloading-worker-0/INFO] [quark/]: Loading Module Celebratory Lamps
-[14Feb2025 22:25:13.309] [modloading-worker-0/INFO] [quark/]: Loading Module Soul Sandstone
-[14Feb2025 22:25:13.309] [modloading-worker-0/INFO] [quark/]: Loading Module Variant Chests
-[14Feb2025 22:25:13.314] [modloading-worker-0/INFO] [quark/]: Loading Module Leaf Carpet
-[14Feb2025 22:25:13.314] [modloading-worker-0/INFO] [quark/]: Loading Module Framed Glass
-[14Feb2025 22:25:13.315] [modloading-worker-0/INFO] [quark/]: Loading Module Vertical Planks
-[14Feb2025 22:25:13.315] [modloading-worker-0/INFO] [quark/]: Loading Module Variant Furnaces
-[14Feb2025 22:25:13.315] [modloading-worker-0/INFO] [quark/]: Loading Module Hedges
-[14Feb2025 22:25:13.315] [modloading-worker-0/INFO] [quark/]: Loading Module Hollow Logs
-[14Feb2025 22:25:13.316] [modloading-worker-0/INFO] [quark/]: Loading Module Midori
-[14Feb2025 22:25:13.316] [modloading-worker-0/INFO] [quark/]: Loading Module Rainbow Lamps
-[14Feb2025 22:25:13.317] [modloading-worker-0/INFO] [quark/]: Loading Module Vertical Slabs
-[14Feb2025 22:25:13.317] [modloading-worker-0/INFO] [quark/]: Loading Module Shingles
-[14Feb2025 22:25:13.317] [modloading-worker-0/INFO] [quark/]: Loading Module Sturdy Stone
-[14Feb2025 22:25:13.317] [modloading-worker-0/INFO] [quark/]: Loading Module Stools
-[14Feb2025 22:25:13.319] [modloading-worker-0/INFO] [quark/]: Loading Module Raw Metal Bricks
-[14Feb2025 22:25:13.319] [modloading-worker-0/INFO] [quark/]: Loading Module More Mud Blocks
-[14Feb2025 22:25:13.319] [modloading-worker-0/INFO] [quark/]: Loading Module Grate
-[14Feb2025 22:25:13.320] [modloading-worker-0/INFO] [quark/]: Loading Module Japanese Palette
-[14Feb2025 22:25:13.321] [modloading-worker-0/INFO] [quark/]: Loading Module More Brick Types
-[14Feb2025 22:25:13.321] [modloading-worker-0/INFO] [quark/]: Loading Module Glass Item Frame
-[14Feb2025 22:25:13.322] [modloading-worker-0/INFO] [quark/]: Loading Module Industrial Palette
-[14Feb2025 22:25:13.322] [modloading-worker-0/INFO] [quark/]: Loading Module Quick Armor Swapping
-[14Feb2025 22:25:13.324] [modloading-worker-0/INFO] [quark/]: Loading Module Item Sharing
-[14Feb2025 22:25:13.324] [modloading-worker-0/INFO] [quark/]: Loading Module Automatic Tool Restock
-[14Feb2025 22:25:13.328] [modloading-worker-0/INFO] [quark/]: Loading Module Expanded Item Interactions
-[14Feb2025 22:25:13.329] [modloading-worker-0/INFO] [quark/]: Loading Module Inventory Sorting
-[14Feb2025 22:25:13.330] [modloading-worker-0/INFO] [quark/]: Loading Module Hotbar Changer
-[14Feb2025 22:25:13.331] [modloading-worker-0/INFO] [quark/]: Loading Module Easy Transfering
-[14Feb2025 22:25:13.331] [modloading-worker-0/INFO] [quark/]: Loading Module Beacon Redirection
-[14Feb2025 22:25:13.331] [modloading-worker-0/INFO] [quark/]: Loading Module Ambient Discs
-[14Feb2025 22:25:13.334] [modloading-worker-0/INFO] [quark/]: Loading Module Pathfinder Maps
-[14Feb2025 22:25:13.339] [modloading-worker-0/INFO] [quark/]: Loading Module Color Runes
-[14Feb2025 22:25:13.343] [modloading-worker-0/INFO] [quark/]: Loading Module Pickarang
-[14Feb2025 22:25:13.344] [modloading-worker-0/INFO] [quark/]: Loading Module Parrot Eggs
-[14Feb2025 22:25:13.347] [modloading-worker-0/INFO] [quark/]: Loading Module Trowel
-[14Feb2025 22:25:13.348] [modloading-worker-0/INFO] [quark/]: Loading Module Abacus
-[14Feb2025 22:25:13.350] [modloading-worker-0/INFO] [quark/]: Loading Module Bottled Cloud
-[14Feb2025 22:25:13.351] [modloading-worker-0/INFO] [quark/]: Loading Module Torch Arrow
-[14Feb2025 22:25:13.352] [modloading-worker-0/INFO] [quark/]: Loading Module Bundle Recipe
-[14Feb2025 22:25:13.353] [modloading-worker-0/INFO] [quark/]: Loading Module Ancient Tomes
-[14Feb2025 22:25:13.364] [modloading-worker-0/INFO] [quark/]: Loading Module Endermosh Music Disc
-[14Feb2025 22:25:13.365] [modloading-worker-0/INFO] [quark/]: Loading Module Seed Pouch
-[14Feb2025 22:25:13.366] [modloading-worker-0/INFO] [quark/]: Loading Module Skull Pikes
-[14Feb2025 22:25:13.368] [modloading-worker-0/INFO] [quark/]: Loading Module Slime In A Bucket
-[14Feb2025 22:25:13.369] [modloading-worker-0/INFO] [quark/]: Loading Module Gold Tools Have Fortune
-[14Feb2025 22:25:13.371] [modloading-worker-0/INFO] [quark/]: Loading Module Automatic Recipe Unlock
-[14Feb2025 22:25:13.372] [modloading-worker-0/INFO] [quark/]: Loading Module Utility Recipes
-[14Feb2025 22:25:13.373] [modloading-worker-0/INFO] [quark/]: Loading Module Poison Potato Usage
-[14Feb2025 22:25:13.374] [modloading-worker-0/INFO] [quark/]: Loading Module Better Elytra Rocket
-[14Feb2025 22:25:13.375] [modloading-worker-0/INFO] [quark/]: Loading Module Renewable Spore Blossoms
-[14Feb2025 22:25:13.378] [modloading-worker-0/INFO] [quark/]: Loading Module Coral On Cactus
-[14Feb2025 22:25:13.378] [modloading-worker-0/INFO] [quark/]: Loading Module Glass Shard
-[14Feb2025 22:25:13.379] [modloading-worker-0/INFO] [quark/]: Loading Module Pig Litters
-[14Feb2025 22:25:13.380] [modloading-worker-0/INFO] [quark/]: Loading Module Campfires Boost Elytra
-[14Feb2025 22:25:13.381] [modloading-worker-0/INFO] [quark/]: Loading Module Dyeable Item Frames
-[14Feb2025 22:25:13.382] [modloading-worker-0/INFO] [quark/]: Loading Module Slabs To Blocks
-[14Feb2025 22:25:13.386] [modloading-worker-0/INFO] [quark/]: Loading Module Map Washing
-[14Feb2025 22:25:13.386] [modloading-worker-0/INFO] [quark/]: Loading Module Enhanced Ladders
-[14Feb2025 22:25:13.387] [modloading-worker-0/INFO] [quark/]: Loading Module Reacharound Placing
-[14Feb2025 22:25:13.388] [modloading-worker-0/INFO] [quark/]: Loading Module Horses Swim
-[14Feb2025 22:25:13.389] [modloading-worker-0/INFO] [quark/]: Loading Module Sponge On Water Placement
-[14Feb2025 22:25:13.390] [modloading-worker-0/INFO] [quark/]: Loading Module Armed Armor Stands
-[14Feb2025 22:25:13.391] [modloading-worker-0/INFO] [quark/]: Loading Module Double Door Opening
-[14Feb2025 22:25:13.391] [modloading-worker-0/INFO] [quark/]: Loading Module Zombie Villagers On Normal
-[14Feb2025 22:25:13.394] [modloading-worker-0/INFO] [quark/]: Loading Module Hoe Harvesting
-[14Feb2025 22:25:13.395] [modloading-worker-0/INFO] [quark/]: Loading Module Emotes
-[14Feb2025 22:25:13.395] [modloading-worker-0/INFO] [quark/]: Loading Module Slimes To Magma Cubes
-[14Feb2025 22:25:13.396] [modloading-worker-0/INFO] [quark/]: Loading Module Snow Golem Player Heads
-[14Feb2025 22:25:13.397] [modloading-worker-0/INFO] [quark/]: Loading Module Vexes Die With Their Masters
-[14Feb2025 22:25:13.398] [modloading-worker-0/INFO] [quark/]: Loading Module More Note Block Sounds
-[14Feb2025 22:25:13.400] [modloading-worker-0/INFO] [quark/]: Loading Module Pat The Dogs
-[14Feb2025 22:25:13.402] [modloading-worker-0/INFO] [quark/]: Loading Module Grab Chickens
-[14Feb2025 22:25:13.404] [modloading-worker-0/INFO] [quark/]: Loading Module More Banner Layers
-[14Feb2025 22:25:13.405] [modloading-worker-0/INFO] [quark/]: Loading Module Replace Scaffolding
-[14Feb2025 22:25:13.406] [modloading-worker-0/INFO] [quark/]: Loading Module Diamond Repair
-[14Feb2025 22:25:13.406] [modloading-worker-0/INFO] [quark/]: Loading Module Safer Creatures
-[14Feb2025 22:25:13.408] [modloading-worker-0/INFO] [quark/]: Loading Module Lock Rotation
-[14Feb2025 22:25:13.411] [modloading-worker-0/INFO] [quark/]: Loading Module Villagers Follow Emeralds
-[14Feb2025 22:25:13.412] [modloading-worker-0/INFO] [quark/]: Loading Module Compasses Work Everywhere
-[14Feb2025 22:25:13.413] [modloading-worker-0/INFO] [quark/]: Loading Module No Durability On Cosmetics
-[14Feb2025 22:25:13.415] [modloading-worker-0/INFO] [quark/]: Loading Module Sponges Better
-[14Feb2025 22:25:13.415] [modloading-worker-0/INFO] [quark/]: Loading Module Sign Editing
-[14Feb2025 22:25:13.416] [modloading-worker-0/INFO] [quark/]: Loading Module Simple Harvest
-[14Feb2025 22:25:13.419] [modloading-worker-0/INFO] [quark/]: Loading Module Dragon Scales
-[14Feb2025 22:25:13.420] [modloading-worker-0/INFO] [quark/]: Loading Module Shulker Packing
-[14Feb2025 22:25:13.421] [modloading-worker-0/INFO] [quark/]: Loading Module Nether Obsidian Spikes
-[14Feb2025 22:25:13.422] [modloading-worker-0/INFO] [quark/]: Loading Module Permafrost
-[14Feb2025 22:25:13.422] [modloading-worker-0/INFO] [quark/]: Loading Module Fairy Rings
-[14Feb2025 22:25:13.422] [modloading-worker-0/INFO] [quark/]: Loading Module Big Stone Clusters
-[14Feb2025 22:25:13.424] [modloading-worker-0/INFO] [quark/]: Loading Module Spiral Spires
-[14Feb2025 22:25:13.426] [modloading-worker-0/INFO] [quark/]: Loading Module Ancient Wood
-[14Feb2025 22:25:13.429] [modloading-worker-0/INFO] [quark/]: Loading Module New Stone Types
-[14Feb2025 22:25:13.435] [modloading-worker-0/INFO] [quark/]: Loading Module Blossom Trees
-[14Feb2025 22:25:13.436] [modloading-worker-0/INFO] [quark/]: Loading Module Glimmering Weald
-[14Feb2025 22:25:13.437] [modloading-worker-0/INFO] [quark/]: Loading Module Monster Box
-[14Feb2025 22:25:13.439] [modloading-worker-0/INFO] [quark/]: Loading Module Azalea Wood
-[14Feb2025 22:25:13.439] [modloading-worker-0/INFO] [quark/]: Loading Module No More Lava Pockets
-[14Feb2025 22:25:13.440] [modloading-worker-0/INFO] [quark/]: Loading Module Corundum
-[14Feb2025 22:25:13.440] [modloading-worker-0/INFO] [quark/]: Loading Module Chorus Vegetation
-[14Feb2025 22:25:13.441] [modloading-worker-0/INFO] [quark/]: Loading Module Foxhound
-[14Feb2025 22:25:13.446] [modloading-worker-0/INFO] [quark/]: Loading Module Wraith
-[14Feb2025 22:25:13.446] [modloading-worker-0/INFO] [quark/]: Loading Module Crabs
-[14Feb2025 22:25:13.449] [modloading-worker-0/INFO] [quark/]: Loading Module Forgotten
-[14Feb2025 22:25:13.450] [modloading-worker-0/INFO] [quark/]: Loading Module Shiba
-[14Feb2025 22:25:13.450] [modloading-worker-0/INFO] [quark/]: Loading Module Stonelings
-[14Feb2025 22:25:13.454] [modloading-worker-0/INFO] [quark/]: Loading Module Toretoise
-[14Feb2025 22:25:13.456] [modloading-worker-0/INFO] [quark/]: Loading Module Camera
-[14Feb2025 22:25:13.457] [modloading-worker-0/INFO] [quark/]: Loading Module Elytra Indicator
-[14Feb2025 22:25:13.457] [modloading-worker-0/INFO] [quark/]: Loading Module Improved Tooltips
-[14Feb2025 22:25:13.457] [modloading-worker-0/INFO] [quark/]: Loading Module Greener Grass
-[14Feb2025 22:25:13.458] [modloading-worker-0/INFO] [quark/]: Loading Module Buckets Show Inhabitants
-[14Feb2025 22:25:13.458] [modloading-worker-0/INFO] [quark/]: Loading Module Soul Candles
-[14Feb2025 22:25:13.458] [modloading-worker-0/INFO] [quark/]: Loading Module Auto Walk Keybind
-[14Feb2025 22:25:13.458] [modloading-worker-0/INFO] [quark/]: Loading Module Variant Animal Textures
-[14Feb2025 22:25:13.459] [modloading-worker-0/INFO] [quark/]: Loading Module Microcrafting Helper
-[14Feb2025 22:25:13.459] [modloading-worker-0/INFO] [quark/]: Loading Module Uses For Curses
-[14Feb2025 22:25:13.460] [modloading-worker-0/INFO] [quark/]: Loading Module Wool Shuts Up Minecarts
-[14Feb2025 22:25:13.460] [modloading-worker-0/INFO] [quark/]: Loading Module Back Button Keybind
-[14Feb2025 22:25:13.460] [modloading-worker-0/INFO] [quark/]: Loading Module Chest Searching
-[14Feb2025 22:25:13.461] [modloading-worker-0/INFO] [quark/]: Loading Module Long Range Pick Block
-[14Feb2025 22:25:13.461] [modloading-worker-0/INFO] [quark/]: Loading Module Usage Ticker
-[14Feb2025 22:25:13.461] [modloading-worker-0/INFO] [quark/]: Loading Module Variant Selector
-[14Feb2025 22:25:13.461] [modloading-worker-0/INFO] [quark/]: Loading Module Narrator Readout
-[14Feb2025 22:25:13.462] [modloading-worker-0/INFO] [quark/]: Loading Module Climate Control Remover
-[14Feb2025 22:25:13.462] [modloading-worker-0/INFO] [quark/]: Loading Module Enchantments Begone
-[14Feb2025 22:25:13.462] [modloading-worker-0/INFO] [quark/]: Loading Module Game Nerfs
-[14Feb2025 22:25:13.462] [modloading-worker-0/INFO] [quark/]: Loading Module Spawner Replacer
-[14Feb2025 22:25:13.463] [modloading-worker-0/INFO] [quark/]: Loading Module Adjustable Chat
-[14Feb2025 22:25:13.463] [modloading-worker-0/INFO] [quark/]: Loading Module Villager Rerolling Rework
-[14Feb2025 22:25:13.463] [modloading-worker-0/INFO] [quark/]: Loading Module Overlay Shader
-[14Feb2025 22:25:13.463] [modloading-worker-0/INFO] [quark/]: Loading Module Enchantment Predicates
-[14Feb2025 22:25:13.464] [modloading-worker-0/INFO] [quark/]: Loading Module Pipes
-[14Feb2025 22:25:13.464] [modloading-worker-0/INFO] [quark/]: Loading Module Backpack
-[14Feb2025 22:25:13.464] [modloading-worker-0/INFO] [quark/]: Loading Module Tiny Potato
-[14Feb2025 22:25:13.465] [modloading-worker-0/INFO] [quark/]: Loading Module Matrix Enchanting
-[14Feb2025 22:25:13.465] [modloading-worker-0/INFO] [quark/]: Loading Module Totem Of Holding
-[14Feb2025 22:25:13.466] [modloading-worker-0/INFO] [quark/]: Loading Module Crate
-[14Feb2025 22:25:13.466] [modloading-worker-0/INFO] [quark/]: Loading Module Magnets
-[14Feb2025 22:25:13.610] [main/INFO] [quark/]: Dispatching Module Step REGISTER
-[14Feb2025 22:25:14.365] [main/INFO] [quark/]: Dispatching Module Step POST_REGISTER
-[14Feb2025 22:25:14.445] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: The object net.minecraft.sounds.SoundEvent@5949d47b has been registered twice for the same name treechop:chop_wood.
-[14Feb2025 22:25:16.892] [main/INFO] [Spartan Shields/]: Loading config spartanshields-common.toml
-[14Feb2025 22:25:16.894] [Thread-0/INFO] [Spartan Shields/]: Loading config spartanshields-common.toml
-[14Feb2025 22:25:16.896] [Thread-0/INFO] [Spartan Shields/]: Loading config spartanshields-common.toml
-[14Feb2025 22:25:16.983] [main/INFO] [quark/]: Dispatching Module Step CONFIG_CHANGED
-[14Feb2025 22:25:17.013] [modloading-worker-0/INFO] [com.becks.uniquedungeons.UniqueDungeons/]: HELLO FROM COMMON SETUP
-[14Feb2025 22:25:17.013] [modloading-worker-0/INFO] [com.becks.uniquedungeons.UniqueDungeons/]: DIRT BLOCK >> minecraft:dirt
-[14Feb2025 22:25:17.036] [modloading-worker-0/INFO] [Spartan Shields/]: Setting up Spartan Shields!
-[14Feb2025 22:25:17.256] [modloading-worker-0/INFO] [quark/]: Dispatching Module Step CONFIG_CHANGED
-[14Feb2025 22:25:17.267] [modloading-worker-0/INFO] [quark/]: Dispatching Module Step SETUP
-[14Feb2025 22:25:17.384] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Starting version check at https://www.github.com/Geforce132/SecurityCraft/raw/master/Updates/Forge.json
-[14Feb2025 22:25:17.688] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:water for Water (Fluid Amount Required: 1000) with the ID 0
-[14Feb2025 22:25:17.689] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:lava for Lava (Fluid Amount Required: 1000) with the ID 1
-[14Feb2025 22:25:17.689] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for Uncraftable Potion (Fluid Amount Required: 250) with the ID 2
-[14Feb2025 22:25:17.690] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:milk for Milk (Fluid Amount Required: 1000) with the ID 3
-[14Feb2025 22:25:17.729] [modloading-worker-0/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 1/2 (Server)
-[14Feb2025 22:25:17.731] [modloading-worker-0/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 1/2 (Server)
-[14Feb2025 22:25:17.732] [main/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 2/2 (Server)
-[14Feb2025 22:25:17.732] [main/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 2/2 (Server)
-[14Feb2025 22:25:17.735] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Found status: UP_TO_DATE Current: 1.9.6.1 Target: null
-[14Feb2025 22:25:17.740] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Starting version check at https://gist.githubusercontent.com/Tiviacz1337/906937677aa472285dff9d6c2a189d5e/raw
-[14Feb2025 22:25:17.780] [modloading-worker-0/INFO] [quark/]: Dispatching Module Step LOAD_COMPLETE
-[14Feb2025 22:25:17.787] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at ht.treechop.compat.Jade
-[14Feb2025 22:25:17.811] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Found status: AHEAD Current: 8.2.41 Target: null
-[14Feb2025 22:25:17.811] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [canary] Starting version check at https://github.com/AbdElAziz333/Canary/raw/mc1.19.2/dev/updates.json
-[14Feb2025 22:25:17.819] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
-[14Feb2025 22:25:17.833] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
-[14Feb2025 22:25:17.836] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [canary] Found status: UP_TO_DATE Current: 0.3.3 Target: null
-[14Feb2025 22:25:17.836] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzleslib] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/puzzleslib.json
-[14Feb2025 22:25:17.847] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.core.CorePlugin
-[14Feb2025 22:25:17.849] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.geforcemods.securitycraft.compat.waila.JadeDataProvider
-[14Feb2025 22:25:17.849] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzleslib] Found status: UP_TO_DATE Current: 4.4.3 Target: null
-[14Feb2025 22:25:17.849] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[14Feb2025 22:25:17.852] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at de.maxhenkel.corpse.integration.waila.PluginCorpse
-[14Feb2025 22:25:18.053] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 43.4.2 Target: 43.4.16
-[14Feb2025 22:25:18.053] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moblassos] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/moblassos.json
-[14Feb2025 22:25:18.158] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moblassos] Found status: UP_TO_DATE Current: 4.0.0 Target: null
-[14Feb2025 22:25:18.159] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [corpse] Starting version check at https://update.maxhenkel.de/forge/corpse
-[14Feb2025 22:25:18.765] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [corpse] Found status: AHEAD Current: 1.19.2-1.0.17 Target: null
-[14Feb2025 22:25:20.370] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[14Feb2025 22:25:22.184] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/workspaces/trabajopractico/servidor_minecraft/libraries/net/minecraft/server/1.19.2-20220805.130853/server-1.19.2-20220805.130853-srg.jar%23173!/assets/.mcassetsroot' uses unexpected schema
-[14Feb2025 22:25:22.185] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/workspaces/trabajopractico/servidor_minecraft/libraries/net/minecraft/server/1.19.2-20220805.130853/server-1.19.2-20220805.130853-srg.jar%23173!/data/.mcassetsroot' uses unexpected schema
-[14Feb2025 22:25:23.982] [main/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Adding datapack listener capsid_recipes
-[14Feb2025 22:25:24.306] [Worker-Main-3/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag [minecraft:amethyst_shard (from epicsamurai-0.0.16-1.19.2-forge.jar)] as it is missing following references: minecraft:amethyst_shard (from epicsamurai-0.0.16-1.19.2-forge.jar)
-[14Feb2025 22:25:24.814] [Worker-Main-3/ERROR] [net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener/]: Couldn't parse data file uniquedungeons:chests/pedestal from uniquedungeons:loot_tables/chests/pedestal.json
+[14Feb2025 22:35:55.340] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 43.4.2, --fml.mcVersion, 1.19.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220805.130853, nogui]
+[14Feb2025 22:35:55.344] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.8+10.0.8+main.0ef7e830 starting: java version 17.0.14 by Ubuntu; OS Linux arch amd64 version 6.5.0-1025-azure
+[14Feb2025 22:35:55.965] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/trabajopractico/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2363!/ Service=ModLauncher Env=SERVER
+[14Feb2025 22:35:56.328] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/trabajopractico/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.19.2-43.4.2/fmlcore-1.19.2-43.4.2.jar is missing mods.toml file
+[14Feb2025 22:35:56.330] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/trabajopractico/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.19.2-43.4.2/javafmllanguage-1.19.2-43.4.2.jar is missing mods.toml file
+[14Feb2025 22:35:56.332] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/trabajopractico/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.19.2-43.4.2/lowcodelanguage-1.19.2-43.4.2.jar is missing mods.toml file
+[14Feb2025 22:35:56.333] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/trabajopractico/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.19.2-43.4.2/mclanguage-1.19.2-43.4.2.jar is missing mods.toml file
+[14Feb2025 22:35:56.509] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 3 dependencies adding them to mods collection
+[14Feb2025 22:35:59.403] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[14Feb2025 22:35:59.521] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[14Feb2025 22:35:59.582] [main/WARN] [mixin/]: Reference map 'arclight.mixins.refmap.json' for epicsamurai.mixins.json could not be read. If this is a development environment you can ignore this message
+[14Feb2025 22:35:59.647] [main/INFO] [Canary/]: Loaded configuration file for Canary: 117 options available, 0 override(s) found
+[14Feb2025 22:35:59.777] [main/WARN] [mixin/]: Reference map 'moblassos.refmap.json' for moblassos.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[14Feb2025 22:35:59.786] [main/INFO] [Embeddium/]: Loaded configuration file for Embeddium: 73 options available, 0 override(s) found
+[14Feb2025 22:35:59.889] [main/WARN] [mixin/]: Error loading class: atomicstryker/multimine/client/MultiMineClient (java.lang.ClassNotFoundException: atomicstryker.multimine.client.MultiMineClient)
+[14Feb2025 22:35:59.889] [main/WARN] [mixin/]: @Mixin target atomicstryker.multimine.client.MultiMineClient was not found treechop.forge.compat.mixins.json:MultiMineMixin
+[14Feb2025 22:36:00.668] [main/WARN] [mixin/]: Error loading class: noobanidus/mods/lootr/config/ConfigManager (java.lang.ClassNotFoundException: noobanidus.mods.lootr.config.ConfigManager)
+[14Feb2025 22:36:01.153] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/renderer/entity/PhantomRenderer (java.lang.ClassNotFoundException: net.minecraft.client.renderer.entity.PhantomRenderer)
+[14Feb2025 22:36:01.153] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.renderer.entity.PhantomRenderer was not found mixins.deeperdarker.json:PhantomRendererMixin
+[14Feb2025 22:36:05.521] [main/INFO] [net.minecraft.util.datafix.DataFixers/]: Building unoptimized datafixer
+[14Feb2025 22:36:06.810] [main/INFO] [quark/]: TerraBlender not found, using injection method
+[14Feb2025 22:36:08.181] [modloading-worker-0/INFO] [Spartan Shields/]: Constructing Mod: Spartan Shields
+[14Feb2025 22:36:08.860] [modloading-worker-0/INFO] [me.drex.antixray.AntiXray/]: Successfully initialized antixray on forge
+[14Feb2025 22:36:09.155] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[14Feb2025 22:36:09.191] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 43.4.2, for MC 1.19.2 with MCP 20220805.130853
+[14Feb2025 22:36:09.192] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v43.4.2 Initialized
+[14Feb2025 22:36:09.243] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for mod puzzleslib
+[14Feb2025 22:36:09.313] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.experimental.module.VariantSelectorModule
+[14Feb2025 22:36:09.328] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.experimental.module.NarratorReadoutModule
+[14Feb2025 22:36:09.328] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.experimental.module.ClimateControlRemoverModule
+[14Feb2025 22:36:09.329] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.experimental.module.EnchantmentsBegoneModule
+[14Feb2025 22:36:09.332] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.experimental.module.GameNerfsModule
+[14Feb2025 22:36:09.333] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.experimental.module.SpawnerReplacerModule
+[14Feb2025 22:36:09.334] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.experimental.module.AdjustableChatModule
+[14Feb2025 22:36:09.339] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.experimental.module.VillagerRerollingReworkModule
+[14Feb2025 22:36:09.340] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.experimental.module.OverlayShaderModule
+[14Feb2025 22:36:09.341] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.experimental.module.EnchantmentPredicatesModule
+[14Feb2025 22:36:09.342] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.VariantLaddersModule
+[14Feb2025 22:36:09.351] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.VariantBookshelvesModule
+[14Feb2025 22:36:09.352] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.BambooBackportModule
+[14Feb2025 22:36:09.353] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.CompressedBlocksModule
+[14Feb2025 22:36:09.357] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.MorePottedPlantsModule
+[14Feb2025 22:36:09.358] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.DuskboundBlocksModule
+[14Feb2025 22:36:09.359] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.WoodenPostsModule
+[14Feb2025 22:36:09.361] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.ThatchModule
+[14Feb2025 22:36:09.368] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.MoreStoneVariantsModule
+[14Feb2025 22:36:09.369] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.ShearVinesModule
+[14Feb2025 22:36:09.372] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.NetherBrickFenceGateModule
+[14Feb2025 22:36:09.373] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.GoldBarsModule
+[14Feb2025 22:36:09.374] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.RopeModule
+[14Feb2025 22:36:09.380] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.CelebratoryLampsModule
+[14Feb2025 22:36:09.382] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.SoulSandstoneModule
+[14Feb2025 22:36:09.470] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.VariantChestsModule
+[14Feb2025 22:36:09.481] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.LeafCarpetModule
+[14Feb2025 22:36:09.487] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.FramedGlassModule
+[14Feb2025 22:36:09.489] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.VerticalPlanksModule
+[14Feb2025 22:36:09.490] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.VariantFurnacesModule
+[14Feb2025 22:36:09.496] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.HedgesModule
+[14Feb2025 22:36:09.499] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.HollowLogsModule
+[14Feb2025 22:36:09.501] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.MidoriModule
+[14Feb2025 22:36:09.503] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.RainbowLampsModule
+[14Feb2025 22:36:09.506] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.VerticalSlabsModule
+[14Feb2025 22:36:09.519] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.ShinglesModule
+[14Feb2025 22:36:09.521] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.SturdyStoneModule
+[14Feb2025 22:36:09.528] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.StoolsModule
+[14Feb2025 22:36:09.535] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.RawMetalBricksModule
+[14Feb2025 22:36:09.536] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.MoreMudBlocksModule
+[14Feb2025 22:36:09.537] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.GrateModule
+[14Feb2025 22:36:09.537] [modloading-worker-0/INFO] [be.florens.expandability.ExpandAbility/]: ExpandAbility here, who dis?
+[14Feb2025 22:36:09.543] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.JapanesePaletteModule
+[14Feb2025 22:36:09.544] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.MoreBrickTypesModule
+[14Feb2025 22:36:09.549] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.GlassItemFrameModule
+[14Feb2025 22:36:09.557] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.IndustrialPaletteModule
+[14Feb2025 22:36:09.562] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.world.module.NetherObsidianSpikesModule
+[14Feb2025 22:36:09.564] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.world.module.PermafrostModule
+[14Feb2025 22:36:09.566] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for mod moblassos
+[14Feb2025 22:36:09.567] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.world.module.FairyRingsModule
+[14Feb2025 22:36:09.574] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.world.module.BigStoneClustersModule
+[14Feb2025 22:36:09.599] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.world.module.SpiralSpiresModule
+[14Feb2025 22:36:09.602] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.world.module.AncientWoodModule
+[14Feb2025 22:36:09.613] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.world.module.NewStoneTypesModule
+[14Feb2025 22:36:09.620] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.world.module.BlossomTreesModule
+[14Feb2025 22:36:09.623] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.world.module.GlimmeringWealdModule
+[14Feb2025 22:36:09.629] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.world.module.MonsterBoxModule
+[14Feb2025 22:36:09.651] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.world.module.AzaleaWoodModule
+[14Feb2025 22:36:09.651] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.world.module.NoMoreLavaPocketsModule
+[14Feb2025 22:36:09.652] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.world.module.CorundumModule
+[14Feb2025 22:36:09.654] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.world.module.ChorusVegetationModule
+[14Feb2025 22:36:09.657] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.client.module.CameraModule
+[14Feb2025 22:36:09.658] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.client.module.ElytraIndicatorModule
+[14Feb2025 22:36:09.663] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.client.module.ImprovedTooltipsModule
+[14Feb2025 22:36:09.664] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.client.module.GreenerGrassModule
+[14Feb2025 22:36:09.678] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.client.module.BucketsShowInhabitantsModule
+[14Feb2025 22:36:09.679] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.client.module.SoulCandlesModule
+[14Feb2025 22:36:09.680] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.client.module.AutoWalkKeybindModule
+[14Feb2025 22:36:09.682] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.client.module.VariantAnimalTexturesModule
+[14Feb2025 22:36:09.690] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.client.module.MicrocraftingHelperModule
+[14Feb2025 22:36:09.705] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.client.module.UsesForCursesModule
+[14Feb2025 22:36:09.707] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.client.module.WoolShutsUpMinecartsModule
+[14Feb2025 22:36:09.708] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.client.module.BackButtonKeybindModule
+[14Feb2025 22:36:09.710] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.client.module.ChestSearchingModule
+[14Feb2025 22:36:09.717] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.client.module.LongRangePickBlockModule
+[14Feb2025 22:36:09.718] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.client.module.UsageTickerModule
+[14Feb2025 22:36:09.720] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.automation.module.PistonsMoveTileEntitiesModule
+[14Feb2025 22:36:09.729] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.automation.module.EnderWatcherModule
+[14Feb2025 22:36:09.730] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.automation.module.RedstoneRandomizerModule
+[14Feb2025 22:36:09.733] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.automation.module.FeedingTroughModule
+[14Feb2025 22:36:09.735] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.automation.module.MetalButtonsModule
+[14Feb2025 22:36:09.754] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.automation.module.IronRodModule
+[14Feb2025 22:36:09.756] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.automation.module.ObsidianPlateModule
+[14Feb2025 22:36:09.757] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.automation.module.ChainsConnectBlocksModule
+[14Feb2025 22:36:09.758] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.automation.module.GravisandModule
+[14Feb2025 22:36:09.765] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.automation.module.JukeboxAutomationModule
+[14Feb2025 22:36:09.768] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.automation.module.DispensersPlaceBlocksModule
+[14Feb2025 22:36:09.768] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.automation.module.ChuteModule
+[14Feb2025 22:36:09.770] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.management.module.QuickArmorSwappingModule
+[14Feb2025 22:36:09.776] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.management.module.ItemSharingModule
+[14Feb2025 22:36:09.789] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.management.module.AutomaticToolRestockModule
+[14Feb2025 22:36:09.812] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.management.module.ExpandedItemInteractionsModule
+[14Feb2025 22:36:09.828] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.management.module.InventorySortingModule
+[14Feb2025 22:36:09.829] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.management.module.HotbarChangerModule
+[14Feb2025 22:36:09.830] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.management.module.EasyTransferingModule
+[14Feb2025 22:36:09.832] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.GoldToolsHaveFortuneModule
+[14Feb2025 22:36:09.834] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.AutomaticRecipeUnlockModule
+[14Feb2025 22:36:09.840] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.UtilityRecipesModule
+[14Feb2025 22:36:09.842] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.PoisonPotatoUsageModule
+[14Feb2025 22:36:09.842] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.BetterElytraRocketModule
+[14Feb2025 22:36:09.843] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.RenewableSporeBlossomsModule
+[14Feb2025 22:36:09.845] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.CoralOnCactusModule
+[14Feb2025 22:36:09.846] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.GlassShardModule
+[14Feb2025 22:36:09.847] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.PigLittersModule
+[14Feb2025 22:36:09.853] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.CampfiresBoostElytraModule
+[14Feb2025 22:36:09.854] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.DyeableItemFramesModule
+[14Feb2025 22:36:09.856] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.SlabsToBlocksModule
+[14Feb2025 22:36:09.856] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.MapWashingModule
+[14Feb2025 22:36:09.870] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.EnhancedLaddersModule
+[14Feb2025 22:36:09.872] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.ReacharoundPlacingModule
+[14Feb2025 22:36:09.874] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.HorsesSwimModule
+[14Feb2025 22:36:09.876] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.SpongeOnWaterPlacementModule
+[14Feb2025 22:36:09.879] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.ArmedArmorStandsModule
+[14Feb2025 22:36:09.880] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.DoubleDoorOpeningModule
+[14Feb2025 22:36:09.881] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.ZombieVillagersOnNormalModule
+[14Feb2025 22:36:09.885] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.HoeHarvestingModule
+[14Feb2025 22:36:09.891] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.EmotesModule
+[14Feb2025 22:36:09.892] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.SlimesToMagmaCubesModule
+[14Feb2025 22:36:09.893] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.SnowGolemPlayerHeadsModule
+[14Feb2025 22:36:09.895] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.VexesDieWithTheirMastersModule
+[14Feb2025 22:36:09.896] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.MoreNoteBlockSoundsModule
+[14Feb2025 22:36:09.899] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.PatTheDogsModule
+[14Feb2025 22:36:09.905] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.GrabChickensModule
+[14Feb2025 22:36:09.907] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.MoreBannerLayersModule
+[14Feb2025 22:36:09.910] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.ReplaceScaffoldingModule
+[14Feb2025 22:36:09.913] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.DiamondRepairModule
+[14Feb2025 22:36:09.915] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.SaferCreaturesModule
+[14Feb2025 22:36:09.919] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.LockRotationModule
+[14Feb2025 22:36:09.922] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.VillagersFollowEmeraldsModule
+[14Feb2025 22:36:09.924] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.CompassesWorkEverywhereModule
+[14Feb2025 22:36:09.926] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.NoDurabilityOnCosmeticsModule
+[14Feb2025 22:36:09.928] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.SpongesBetterModule
+[14Feb2025 22:36:09.931] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.SignEditingModule
+[14Feb2025 22:36:09.937] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.SimpleHarvestModule
+[14Feb2025 22:36:09.941] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.DragonScalesModule
+[14Feb2025 22:36:09.943] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.ShulkerPackingModule
+[14Feb2025 22:36:09.947] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.mobs.module.FoxhoundModule
+[14Feb2025 22:36:09.952] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.mobs.module.WraithModule
+[14Feb2025 22:36:09.968] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.mobs.module.CrabsModule
+[14Feb2025 22:36:09.970] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.mobs.module.ForgottenModule
+[14Feb2025 22:36:09.973] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.mobs.module.ShibaModule
+[14Feb2025 22:36:09.974] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.mobs.module.StonelingsModule
+[14Feb2025 22:36:09.976] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.mobs.module.ToretoiseModule
+[14Feb2025 22:36:09.992] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.BeaconRedirectionModule
+[14Feb2025 22:36:09.993] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.AmbientDiscsModule
+[14Feb2025 22:36:09.995] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.PathfinderMapsModule
+[14Feb2025 22:36:09.999] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.ColorRunesModule
+[14Feb2025 22:36:10.015] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.PickarangModule
+[14Feb2025 22:36:10.020] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.ParrotEggsModule
+[14Feb2025 22:36:10.032] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.TrowelModule
+[14Feb2025 22:36:10.035] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.AbacusModule
+[14Feb2025 22:36:10.036] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.BottledCloudModule
+[14Feb2025 22:36:10.039] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.TorchArrowModule
+[14Feb2025 22:36:10.042] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.BundleRecipeModule
+[14Feb2025 22:36:10.049] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.AncientTomesModule
+[14Feb2025 22:36:10.056] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.EndermoshMusicDiscModule
+[14Feb2025 22:36:10.064] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.SeedPouchModule
+[14Feb2025 22:36:10.067] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.SkullPikesModule
+[14Feb2025 22:36:10.069] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.SlimeInABucketModule
+[14Feb2025 22:36:10.071] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.addons.oddities.module.PipesModule
+[14Feb2025 22:36:10.079] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.addons.oddities.module.BackpackModule
+[14Feb2025 22:36:10.089] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.addons.oddities.module.TinyPotatoModule
+[14Feb2025 22:36:10.092] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.addons.oddities.module.MatrixEnchantingModule
+[14Feb2025 22:36:10.098] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.addons.oddities.module.TotemOfHoldingModule
+[14Feb2025 22:36:10.100] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.addons.oddities.module.CrateModule
+[14Feb2025 22:36:10.105] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.addons.oddities.module.MagnetsModule
+[14Feb2025 22:36:10.109] [modloading-worker-0/INFO] [quark/]: Dispatching Module Step CONSTRUCT
+[14Feb2025 22:36:10.307] [modloading-worker-0/INFO] [quark/]: Loading Module Pistons Move Tile Entities
+[14Feb2025 22:36:10.308] [modloading-worker-0/INFO] [quark/]: Loading Module Ender Watcher
+[14Feb2025 22:36:10.309] [modloading-worker-0/INFO] [quark/]: Loading Module Redstone Randomizer
+[14Feb2025 22:36:10.309] [modloading-worker-0/INFO] [quark/]: Loading Module Feeding Trough
+[14Feb2025 22:36:10.311] [modloading-worker-0/INFO] [quark/]: Loading Module Metal Buttons
+[14Feb2025 22:36:10.311] [modloading-worker-0/INFO] [quark/]: Loading Module Iron Rod
+[14Feb2025 22:36:10.311] [modloading-worker-0/INFO] [quark/]: Loading Module Obsidian Plate
+[14Feb2025 22:36:10.311] [modloading-worker-0/INFO] [quark/]: Loading Module Chains Connect Blocks
+[14Feb2025 22:36:10.311] [modloading-worker-0/INFO] [quark/]: Loading Module Gravisand
+[14Feb2025 22:36:10.312] [modloading-worker-0/INFO] [quark/]: Loading Module Jukebox Automation
+[14Feb2025 22:36:10.313] [modloading-worker-0/INFO] [quark/]: Loading Module Dispensers Place Blocks
+[14Feb2025 22:36:10.313] [modloading-worker-0/INFO] [quark/]: Loading Module Chute
+[14Feb2025 22:36:10.313] [modloading-worker-0/INFO] [quark/]: Loading Module Variant Ladders
+[14Feb2025 22:36:10.315] [modloading-worker-0/INFO] [quark/]: Loading Module Variant Bookshelves
+[14Feb2025 22:36:10.316] [modloading-worker-0/INFO] [quark/]: Loading Module Bamboo Backport
+[14Feb2025 22:36:10.317] [modloading-worker-0/INFO] [quark/]: Loading Module Compressed Blocks
+[14Feb2025 22:36:10.317] [modloading-worker-0/INFO] [quark/]: Loading Module More Potted Plants
+[14Feb2025 22:36:10.318] [modloading-worker-0/INFO] [quark/]: Loading Module Duskbound Blocks
+[14Feb2025 22:36:10.318] [modloading-worker-0/INFO] [quark/]: Loading Module Wooden Posts
+[14Feb2025 22:36:10.318] [modloading-worker-0/INFO] [quark/]: Loading Module Thatch
+[14Feb2025 22:36:10.318] [modloading-worker-0/INFO] [quark/]: Loading Module More Stone Variants
+[14Feb2025 22:36:10.319] [modloading-worker-0/INFO] [quark/]: Loading Module Shear Vines
+[14Feb2025 22:36:10.321] [modloading-worker-0/INFO] [quark/]: Loading Module Nether Brick Fence Gate
+[14Feb2025 22:36:10.322] [modloading-worker-0/INFO] [quark/]: Loading Module Gold Bars
+[14Feb2025 22:36:10.322] [modloading-worker-0/INFO] [quark/]: Loading Module Rope
+[14Feb2025 22:36:10.322] [modloading-worker-0/INFO] [quark/]: Loading Module Celebratory Lamps
+[14Feb2025 22:36:10.322] [modloading-worker-0/INFO] [quark/]: Loading Module Soul Sandstone
+[14Feb2025 22:36:10.323] [modloading-worker-0/INFO] [quark/]: Loading Module Variant Chests
+[14Feb2025 22:36:10.327] [modloading-worker-0/INFO] [quark/]: Loading Module Leaf Carpet
+[14Feb2025 22:36:10.328] [modloading-worker-0/INFO] [quark/]: Loading Module Framed Glass
+[14Feb2025 22:36:10.328] [modloading-worker-0/INFO] [quark/]: Loading Module Vertical Planks
+[14Feb2025 22:36:10.329] [modloading-worker-0/INFO] [quark/]: Loading Module Variant Furnaces
+[14Feb2025 22:36:10.329] [modloading-worker-0/INFO] [quark/]: Loading Module Hedges
+[14Feb2025 22:36:10.329] [modloading-worker-0/INFO] [quark/]: Loading Module Hollow Logs
+[14Feb2025 22:36:10.330] [modloading-worker-0/INFO] [quark/]: Loading Module Midori
+[14Feb2025 22:36:10.330] [modloading-worker-0/INFO] [quark/]: Loading Module Rainbow Lamps
+[14Feb2025 22:36:10.331] [modloading-worker-0/INFO] [quark/]: Loading Module Vertical Slabs
+[14Feb2025 22:36:10.331] [modloading-worker-0/INFO] [quark/]: Loading Module Shingles
+[14Feb2025 22:36:10.331] [modloading-worker-0/INFO] [quark/]: Loading Module Sturdy Stone
+[14Feb2025 22:36:10.331] [modloading-worker-0/INFO] [quark/]: Loading Module Stools
+[14Feb2025 22:36:10.333] [modloading-worker-0/INFO] [quark/]: Loading Module Raw Metal Bricks
+[14Feb2025 22:36:10.333] [modloading-worker-0/INFO] [quark/]: Loading Module More Mud Blocks
+[14Feb2025 22:36:10.333] [modloading-worker-0/INFO] [quark/]: Loading Module Grate
+[14Feb2025 22:36:10.333] [modloading-worker-0/INFO] [quark/]: Loading Module Japanese Palette
+[14Feb2025 22:36:10.334] [modloading-worker-0/INFO] [quark/]: Loading Module More Brick Types
+[14Feb2025 22:36:10.334] [modloading-worker-0/INFO] [quark/]: Loading Module Glass Item Frame
+[14Feb2025 22:36:10.334] [modloading-worker-0/INFO] [quark/]: Loading Module Industrial Palette
+[14Feb2025 22:36:10.335] [modloading-worker-0/INFO] [quark/]: Loading Module Quick Armor Swapping
+[14Feb2025 22:36:10.335] [modloading-worker-0/INFO] [quark/]: Loading Module Item Sharing
+[14Feb2025 22:36:10.336] [modloading-worker-0/INFO] [quark/]: Loading Module Automatic Tool Restock
+[14Feb2025 22:36:10.338] [modloading-worker-0/INFO] [quark/]: Loading Module Expanded Item Interactions
+[14Feb2025 22:36:10.342] [modloading-worker-0/INFO] [quark/]: Loading Module Inventory Sorting
+[14Feb2025 22:36:10.342] [modloading-worker-0/INFO] [quark/]: Loading Module Hotbar Changer
+[14Feb2025 22:36:10.343] [modloading-worker-0/INFO] [quark/]: Loading Module Easy Transfering
+[14Feb2025 22:36:10.343] [modloading-worker-0/INFO] [quark/]: Loading Module Beacon Redirection
+[14Feb2025 22:36:10.343] [modloading-worker-0/INFO] [quark/]: Loading Module Ambient Discs
+[14Feb2025 22:36:10.344] [modloading-worker-0/INFO] [quark/]: Loading Module Pathfinder Maps
+[14Feb2025 22:36:10.347] [modloading-worker-0/INFO] [quark/]: Loading Module Color Runes
+[14Feb2025 22:36:10.352] [modloading-worker-0/INFO] [quark/]: Loading Module Pickarang
+[14Feb2025 22:36:10.352] [modloading-worker-0/INFO] [quark/]: Loading Module Parrot Eggs
+[14Feb2025 22:36:10.355] [modloading-worker-0/INFO] [quark/]: Loading Module Trowel
+[14Feb2025 22:36:10.355] [modloading-worker-0/INFO] [quark/]: Loading Module Abacus
+[14Feb2025 22:36:10.358] [modloading-worker-0/INFO] [quark/]: Loading Module Bottled Cloud
+[14Feb2025 22:36:10.359] [modloading-worker-0/INFO] [quark/]: Loading Module Torch Arrow
+[14Feb2025 22:36:10.360] [modloading-worker-0/INFO] [quark/]: Loading Module Bundle Recipe
+[14Feb2025 22:36:10.360] [modloading-worker-0/INFO] [quark/]: Loading Module Ancient Tomes
+[14Feb2025 22:36:10.369] [modloading-worker-0/INFO] [quark/]: Loading Module Endermosh Music Disc
+[14Feb2025 22:36:10.370] [modloading-worker-0/INFO] [quark/]: Loading Module Seed Pouch
+[14Feb2025 22:36:10.371] [modloading-worker-0/INFO] [quark/]: Loading Module Skull Pikes
+[14Feb2025 22:36:10.372] [modloading-worker-0/INFO] [quark/]: Loading Module Slime In A Bucket
+[14Feb2025 22:36:10.373] [modloading-worker-0/INFO] [quark/]: Loading Module Gold Tools Have Fortune
+[14Feb2025 22:36:10.373] [modloading-worker-0/INFO] [quark/]: Loading Module Automatic Recipe Unlock
+[14Feb2025 22:36:10.374] [modloading-worker-0/INFO] [quark/]: Loading Module Utility Recipes
+[14Feb2025 22:36:10.375] [modloading-worker-0/INFO] [quark/]: Loading Module Poison Potato Usage
+[14Feb2025 22:36:10.376] [modloading-worker-0/INFO] [quark/]: Loading Module Better Elytra Rocket
+[14Feb2025 22:36:10.377] [modloading-worker-0/INFO] [quark/]: Loading Module Renewable Spore Blossoms
+[14Feb2025 22:36:10.379] [modloading-worker-0/INFO] [quark/]: Loading Module Coral On Cactus
+[14Feb2025 22:36:10.379] [modloading-worker-0/INFO] [quark/]: Loading Module Glass Shard
+[14Feb2025 22:36:10.379] [modloading-worker-0/INFO] [quark/]: Loading Module Pig Litters
+[14Feb2025 22:36:10.380] [modloading-worker-0/INFO] [quark/]: Loading Module Campfires Boost Elytra
+[14Feb2025 22:36:10.381] [modloading-worker-0/INFO] [quark/]: Loading Module Dyeable Item Frames
+[14Feb2025 22:36:10.382] [modloading-worker-0/INFO] [quark/]: Loading Module Slabs To Blocks
+[14Feb2025 22:36:10.384] [modloading-worker-0/INFO] [quark/]: Loading Module Map Washing
+[14Feb2025 22:36:10.384] [modloading-worker-0/INFO] [quark/]: Loading Module Enhanced Ladders
+[14Feb2025 22:36:10.385] [modloading-worker-0/INFO] [quark/]: Loading Module Reacharound Placing
+[14Feb2025 22:36:10.386] [modloading-worker-0/INFO] [quark/]: Loading Module Horses Swim
+[14Feb2025 22:36:10.387] [modloading-worker-0/INFO] [quark/]: Loading Module Sponge On Water Placement
+[14Feb2025 22:36:10.388] [modloading-worker-0/INFO] [quark/]: Loading Module Armed Armor Stands
+[14Feb2025 22:36:10.388] [modloading-worker-0/INFO] [quark/]: Loading Module Double Door Opening
+[14Feb2025 22:36:10.389] [modloading-worker-0/INFO] [quark/]: Loading Module Zombie Villagers On Normal
+[14Feb2025 22:36:10.391] [modloading-worker-0/INFO] [quark/]: Loading Module Hoe Harvesting
+[14Feb2025 22:36:10.391] [modloading-worker-0/INFO] [quark/]: Loading Module Emotes
+[14Feb2025 22:36:10.392] [modloading-worker-0/INFO] [quark/]: Loading Module Slimes To Magma Cubes
+[14Feb2025 22:36:10.393] [modloading-worker-0/INFO] [quark/]: Loading Module Snow Golem Player Heads
+[14Feb2025 22:36:10.394] [modloading-worker-0/INFO] [quark/]: Loading Module Vexes Die With Their Masters
+[14Feb2025 22:36:10.395] [modloading-worker-0/INFO] [quark/]: Loading Module More Note Block Sounds
+[14Feb2025 22:36:10.395] [modloading-worker-0/INFO] [quark/]: Loading Module Pat The Dogs
+[14Feb2025 22:36:10.397] [modloading-worker-0/INFO] [quark/]: Loading Module Grab Chickens
+[14Feb2025 22:36:10.398] [modloading-worker-0/INFO] [quark/]: Loading Module More Banner Layers
+[14Feb2025 22:36:10.398] [modloading-worker-0/INFO] [quark/]: Loading Module Replace Scaffolding
+[14Feb2025 22:36:10.399] [modloading-worker-0/INFO] [quark/]: Loading Module Diamond Repair
+[14Feb2025 22:36:10.399] [modloading-worker-0/INFO] [quark/]: Loading Module Safer Creatures
+[14Feb2025 22:36:10.400] [modloading-worker-0/INFO] [quark/]: Loading Module Lock Rotation
+[14Feb2025 22:36:10.401] [modloading-worker-0/INFO] [quark/]: Loading Module Villagers Follow Emeralds
+[14Feb2025 22:36:10.402] [modloading-worker-0/INFO] [quark/]: Loading Module Compasses Work Everywhere
+[14Feb2025 22:36:10.403] [modloading-worker-0/INFO] [quark/]: Loading Module No Durability On Cosmetics
+[14Feb2025 22:36:10.404] [modloading-worker-0/INFO] [quark/]: Loading Module Sponges Better
+[14Feb2025 22:36:10.404] [modloading-worker-0/INFO] [quark/]: Loading Module Sign Editing
+[14Feb2025 22:36:10.405] [modloading-worker-0/INFO] [quark/]: Loading Module Simple Harvest
+[14Feb2025 22:36:10.407] [modloading-worker-0/INFO] [quark/]: Loading Module Dragon Scales
+[14Feb2025 22:36:10.408] [modloading-worker-0/INFO] [quark/]: Loading Module Shulker Packing
+[14Feb2025 22:36:10.410] [modloading-worker-0/INFO] [quark/]: Loading Module Nether Obsidian Spikes
+[14Feb2025 22:36:10.410] [modloading-worker-0/INFO] [quark/]: Loading Module Permafrost
+[14Feb2025 22:36:10.410] [modloading-worker-0/INFO] [quark/]: Loading Module Fairy Rings
+[14Feb2025 22:36:10.410] [modloading-worker-0/INFO] [quark/]: Loading Module Big Stone Clusters
+[14Feb2025 22:36:10.411] [modloading-worker-0/INFO] [quark/]: Loading Module Spiral Spires
+[14Feb2025 22:36:10.413] [modloading-worker-0/INFO] [quark/]: Loading Module Ancient Wood
+[14Feb2025 22:36:10.414] [modloading-worker-0/INFO] [quark/]: Loading Module New Stone Types
+[14Feb2025 22:36:10.420] [modloading-worker-0/INFO] [quark/]: Loading Module Blossom Trees
+[14Feb2025 22:36:10.422] [modloading-worker-0/INFO] [quark/]: Loading Module Glimmering Weald
+[14Feb2025 22:36:10.422] [modloading-worker-0/INFO] [quark/]: Loading Module Monster Box
+[14Feb2025 22:36:10.423] [modloading-worker-0/INFO] [quark/]: Loading Module Azalea Wood
+[14Feb2025 22:36:10.423] [modloading-worker-0/INFO] [quark/]: Loading Module No More Lava Pockets
+[14Feb2025 22:36:10.424] [modloading-worker-0/INFO] [quark/]: Loading Module Corundum
+[14Feb2025 22:36:10.425] [modloading-worker-0/INFO] [quark/]: Loading Module Chorus Vegetation
+[14Feb2025 22:36:10.425] [modloading-worker-0/INFO] [quark/]: Loading Module Foxhound
+[14Feb2025 22:36:10.430] [modloading-worker-0/INFO] [quark/]: Loading Module Wraith
+[14Feb2025 22:36:10.431] [modloading-worker-0/INFO] [quark/]: Loading Module Crabs
+[14Feb2025 22:36:10.434] [modloading-worker-0/INFO] [quark/]: Loading Module Forgotten
+[14Feb2025 22:36:10.434] [modloading-worker-0/INFO] [quark/]: Loading Module Shiba
+[14Feb2025 22:36:10.435] [modloading-worker-0/INFO] [quark/]: Loading Module Stonelings
+[14Feb2025 22:36:10.438] [modloading-worker-0/INFO] [quark/]: Loading Module Toretoise
+[14Feb2025 22:36:10.440] [modloading-worker-0/INFO] [quark/]: Loading Module Camera
+[14Feb2025 22:36:10.441] [modloading-worker-0/INFO] [quark/]: Loading Module Elytra Indicator
+[14Feb2025 22:36:10.441] [modloading-worker-0/INFO] [quark/]: Loading Module Improved Tooltips
+[14Feb2025 22:36:10.442] [modloading-worker-0/INFO] [quark/]: Loading Module Greener Grass
+[14Feb2025 22:36:10.442] [modloading-worker-0/INFO] [quark/]: Loading Module Buckets Show Inhabitants
+[14Feb2025 22:36:10.442] [modloading-worker-0/INFO] [quark/]: Loading Module Soul Candles
+[14Feb2025 22:36:10.442] [modloading-worker-0/INFO] [quark/]: Loading Module Auto Walk Keybind
+[14Feb2025 22:36:10.443] [modloading-worker-0/INFO] [quark/]: Loading Module Variant Animal Textures
+[14Feb2025 22:36:10.443] [modloading-worker-0/INFO] [quark/]: Loading Module Microcrafting Helper
+[14Feb2025 22:36:10.443] [modloading-worker-0/INFO] [quark/]: Loading Module Uses For Curses
+[14Feb2025 22:36:10.443] [modloading-worker-0/INFO] [quark/]: Loading Module Wool Shuts Up Minecarts
+[14Feb2025 22:36:10.444] [modloading-worker-0/INFO] [quark/]: Loading Module Back Button Keybind
+[14Feb2025 22:36:10.444] [modloading-worker-0/INFO] [quark/]: Loading Module Chest Searching
+[14Feb2025 22:36:10.444] [modloading-worker-0/INFO] [quark/]: Loading Module Long Range Pick Block
+[14Feb2025 22:36:10.444] [modloading-worker-0/INFO] [quark/]: Loading Module Usage Ticker
+[14Feb2025 22:36:10.445] [modloading-worker-0/INFO] [quark/]: Loading Module Variant Selector
+[14Feb2025 22:36:10.445] [modloading-worker-0/INFO] [quark/]: Loading Module Narrator Readout
+[14Feb2025 22:36:10.445] [modloading-worker-0/INFO] [quark/]: Loading Module Climate Control Remover
+[14Feb2025 22:36:10.446] [modloading-worker-0/INFO] [quark/]: Loading Module Enchantments Begone
+[14Feb2025 22:36:10.446] [modloading-worker-0/INFO] [quark/]: Loading Module Game Nerfs
+[14Feb2025 22:36:10.446] [modloading-worker-0/INFO] [quark/]: Loading Module Spawner Replacer
+[14Feb2025 22:36:10.446] [modloading-worker-0/INFO] [quark/]: Loading Module Adjustable Chat
+[14Feb2025 22:36:10.447] [modloading-worker-0/INFO] [quark/]: Loading Module Villager Rerolling Rework
+[14Feb2025 22:36:10.447] [modloading-worker-0/INFO] [quark/]: Loading Module Overlay Shader
+[14Feb2025 22:36:10.447] [modloading-worker-0/INFO] [quark/]: Loading Module Enchantment Predicates
+[14Feb2025 22:36:10.448] [modloading-worker-0/INFO] [quark/]: Loading Module Pipes
+[14Feb2025 22:36:10.449] [modloading-worker-0/INFO] [quark/]: Loading Module Backpack
+[14Feb2025 22:36:10.449] [modloading-worker-0/INFO] [quark/]: Loading Module Tiny Potato
+[14Feb2025 22:36:10.450] [modloading-worker-0/INFO] [quark/]: Loading Module Matrix Enchanting
+[14Feb2025 22:36:10.450] [modloading-worker-0/INFO] [quark/]: Loading Module Totem Of Holding
+[14Feb2025 22:36:10.450] [modloading-worker-0/INFO] [quark/]: Loading Module Crate
+[14Feb2025 22:36:10.451] [modloading-worker-0/INFO] [quark/]: Loading Module Magnets
+[14Feb2025 22:36:10.598] [main/INFO] [quark/]: Dispatching Module Step REGISTER
+[14Feb2025 22:36:11.037] [main/INFO] [quark/]: Dispatching Module Step POST_REGISTER
+[14Feb2025 22:36:11.088] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: The object net.minecraft.sounds.SoundEvent@64aa224d has been registered twice for the same name treechop:chop_wood.
+[14Feb2025 22:36:13.326] [main/INFO] [Spartan Shields/]: Loading config spartanshields-common.toml
+[14Feb2025 22:36:13.327] [Thread-0/INFO] [Spartan Shields/]: Loading config spartanshields-common.toml
+[14Feb2025 22:36:13.329] [Thread-0/INFO] [Spartan Shields/]: Loading config spartanshields-common.toml
+[14Feb2025 22:36:13.446] [main/INFO] [quark/]: Dispatching Module Step CONFIG_CHANGED
+[14Feb2025 22:36:13.483] [modloading-worker-0/INFO] [com.becks.uniquedungeons.UniqueDungeons/]: HELLO FROM COMMON SETUP
+[14Feb2025 22:36:13.483] [modloading-worker-0/INFO] [com.becks.uniquedungeons.UniqueDungeons/]: DIRT BLOCK >> minecraft:dirt
+[14Feb2025 22:36:13.491] [modloading-worker-0/INFO] [Spartan Shields/]: Setting up Spartan Shields!
+[14Feb2025 22:36:13.744] [modloading-worker-0/INFO] [quark/]: Dispatching Module Step CONFIG_CHANGED
+[14Feb2025 22:36:13.766] [modloading-worker-0/INFO] [quark/]: Dispatching Module Step SETUP
+[14Feb2025 22:36:13.855] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Starting version check at https://www.github.com/Geforce132/SecurityCraft/raw/master/Updates/Forge.json
+[14Feb2025 22:36:14.241] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:water for Water (Fluid Amount Required: 1000) with the ID 0
+[14Feb2025 22:36:14.242] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:lava for Lava (Fluid Amount Required: 1000) with the ID 1
+[14Feb2025 22:36:14.242] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for Uncraftable Potion (Fluid Amount Required: 250) with the ID 2
+[14Feb2025 22:36:14.243] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:milk for Milk (Fluid Amount Required: 1000) with the ID 3
+[14Feb2025 22:36:14.282] [modloading-worker-0/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[14Feb2025 22:36:14.283] [modloading-worker-0/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 1/2 (Server)
+[14Feb2025 22:36:14.287] [main/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[14Feb2025 22:36:14.288] [main/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 2/2 (Server)
+[14Feb2025 22:36:14.291] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Found status: UP_TO_DATE Current: 1.9.6.1 Target: null
+[14Feb2025 22:36:14.293] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Starting version check at https://gist.githubusercontent.com/Tiviacz1337/906937677aa472285dff9d6c2a189d5e/raw
+[14Feb2025 22:36:14.334] [modloading-worker-0/INFO] [quark/]: Dispatching Module Step LOAD_COMPLETE
+[14Feb2025 22:36:14.337] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at ht.treechop.compat.Jade
+[14Feb2025 22:36:14.347] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
+[14Feb2025 22:36:14.359] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
+[14Feb2025 22:36:14.360] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Found status: AHEAD Current: 8.2.41 Target: null
+[14Feb2025 22:36:14.360] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [canary] Starting version check at https://github.com/AbdElAziz333/Canary/raw/mc1.19.2/dev/updates.json
+[14Feb2025 22:36:14.367] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.core.CorePlugin
+[14Feb2025 22:36:14.369] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.geforcemods.securitycraft.compat.waila.JadeDataProvider
+[14Feb2025 22:36:14.371] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at de.maxhenkel.corpse.integration.waila.PluginCorpse
+[14Feb2025 22:36:14.419] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [canary] Found status: UP_TO_DATE Current: 0.3.3 Target: null
+[14Feb2025 22:36:14.420] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzleslib] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/puzzleslib.json
+[14Feb2025 22:36:14.430] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzleslib] Found status: UP_TO_DATE Current: 4.4.3 Target: null
+[14Feb2025 22:36:14.431] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[14Feb2025 22:36:14.553] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 43.4.2 Target: 43.4.16
+[14Feb2025 22:36:14.553] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moblassos] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/moblassos.json
+[14Feb2025 22:36:14.616] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moblassos] Found status: UP_TO_DATE Current: 4.0.0 Target: null
+[14Feb2025 22:36:14.616] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [corpse] Starting version check at https://update.maxhenkel.de/forge/corpse
+[14Feb2025 22:36:15.129] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [corpse] Found status: AHEAD Current: 1.19.2-1.0.17 Target: null
+[14Feb2025 22:36:16.953] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[14Feb2025 22:36:18.753] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/workspaces/trabajopractico/servidor_minecraft/libraries/net/minecraft/server/1.19.2-20220805.130853/server-1.19.2-20220805.130853-srg.jar%23173!/assets/.mcassetsroot' uses unexpected schema
+[14Feb2025 22:36:18.754] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/workspaces/trabajopractico/servidor_minecraft/libraries/net/minecraft/server/1.19.2-20220805.130853/server-1.19.2-20220805.130853-srg.jar%23173!/data/.mcassetsroot' uses unexpected schema
+[14Feb2025 22:36:20.510] [main/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Adding datapack listener capsid_recipes
+[14Feb2025 22:36:20.711] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag [minecraft:amethyst_shard (from epicsamurai-0.0.16-1.19.2-forge.jar)] as it is missing following references: minecraft:amethyst_shard (from epicsamurai-0.0.16-1.19.2-forge.jar)
+[14Feb2025 22:36:21.156] [Worker-Main-1/ERROR] [net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener/]: Couldn't parse data file uniquedungeons:chests/pedestal from uniquedungeons:loot_tables/chests/pedestal.json
 com.google.gson.JsonParseException: com.google.gson.stream.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 10 column 10 path $.pools[0].entries[1]
 	at net.minecraft.util.GsonHelper.m_13780_(GsonHelper.java:512) ~[server-1.19.2-20220805.130853-srg.jar%23173!/:?]
 	at net.minecraft.util.GsonHelper.m_13776_(GsonHelper.java:549) ~[server-1.19.2-20220805.130853-srg.jar%23173!/:?]
@@ -430,18 +430,18 @@ Caused by: com.google.gson.stream.MalformedJsonException: Use JsonReader.setLeni
 	at com.google.gson.internal.bind.TypeAdapters$33$1.read(TypeAdapters.java:866) ~[gson-2.8.9.jar%2370!/:?]
 	at net.minecraft.util.GsonHelper.m_13780_(GsonHelper.java:510) ~[server-1.19.2-20220805.130853-srg.jar%23173!/:?]
 	... 11 more
-[14Feb2025 22:25:24.919] [Worker-Main-3/INFO] [Mantle/]: Loaded 17 loot table injectors injecting into 15 tables in 16.426123 ms
-[14Feb2025 22:25:24.987] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe epicsamurai:dye_ars_nouveau_helmet as it's serializer returned null
-[14Feb2025 22:25:24.991] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe epicsamurai:dye_ars_nouveau_leggings as it's serializer returned null
-[14Feb2025 22:25:25.014] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe epicsamurai:source_gem_samruai_helmet_ritual as it's serializer returned null
-[14Feb2025 22:25:25.015] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe epicsamurai:brass_samruai_helmet_mechanical_crafting as it's serializer returned null
-[14Feb2025 22:25:25.020] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe epicsamurai:brass_samruai_chestplate_mechanical_crafting as it's serializer returned null
-[14Feb2025 22:25:25.040] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe epicsamurai:brass_repair_kit_mechanical_crafting as it's serializer returned null
-[14Feb2025 22:25:25.050] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe epicsamurai:source_gem_samruai_leggings_ritual as it's serializer returned null
-[14Feb2025 22:25:25.052] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe epicsamurai:dye_ars_nouveau_boots as it's serializer returned null
-[14Feb2025 22:25:25.072] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe epicsamurai:brass_samruai_leggings_mechanical_crafting as it's serializer returned null
-[14Feb2025 22:25:25.079] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe epicsamurai:source_gem_samruai_boots_ritual as it's serializer returned null
-[14Feb2025 22:25:25.101] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe epicsamurai:samurai_guide
+[14Feb2025 22:36:21.291] [Worker-Main-1/INFO] [Mantle/]: Loaded 17 loot table injectors injecting into 15 tables in 23.04684 ms
+[14Feb2025 22:36:21.398] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe epicsamurai:dye_ars_nouveau_helmet as it's serializer returned null
+[14Feb2025 22:36:21.402] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe epicsamurai:dye_ars_nouveau_leggings as it's serializer returned null
+[14Feb2025 22:36:21.426] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe epicsamurai:source_gem_samruai_helmet_ritual as it's serializer returned null
+[14Feb2025 22:36:21.428] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe epicsamurai:brass_samruai_helmet_mechanical_crafting as it's serializer returned null
+[14Feb2025 22:36:21.434] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe epicsamurai:brass_samruai_chestplate_mechanical_crafting as it's serializer returned null
+[14Feb2025 22:36:21.455] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe epicsamurai:brass_repair_kit_mechanical_crafting as it's serializer returned null
+[14Feb2025 22:36:21.469] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe epicsamurai:source_gem_samruai_leggings_ritual as it's serializer returned null
+[14Feb2025 22:36:21.474] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe epicsamurai:dye_ars_nouveau_boots as it's serializer returned null
+[14Feb2025 22:36:21.510] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe epicsamurai:brass_samruai_leggings_mechanical_crafting as it's serializer returned null
+[14Feb2025 22:36:21.520] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe epicsamurai:source_gem_samruai_boots_ritual as it's serializer returned null
+[14Feb2025 22:36:21.547] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe epicsamurai:samurai_guide
 com.google.gson.JsonSyntaxException: Unknown item 'patchouli:guide_book'
 	at net.minecraftforge.common.crafting.CraftingHelper.getItem(CraftingHelper.java:154) ~[forge-1.19.2-43.4.2-universal.jar%23178!/:?]
 	at net.minecraftforge.common.crafting.CraftingHelper.getItemStack(CraftingHelper.java:180) ~[forge-1.19.2-43.4.2-universal.jar%23178!/:?]
@@ -472,84 +472,84 @@ com.google.gson.JsonSyntaxException: Unknown item 'patchouli:guide_book'
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-10.0.8.jar%2354!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-10.0.8.jar%2354!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) [bootstraplauncher-1.1.2.jar:?]
-[14Feb2025 22:25:25.144] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe epicsamurai:source_gem_samruai_chestplate_ritual as it's serializer returned null
-[14Feb2025 22:25:25.148] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe epicsamurai:dye_ars_nouveau_chestplate as it's serializer returned null
-[14Feb2025 22:25:25.156] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe epicsamurai:brass_samruai_boots_mechanical_crafting as it's serializer returned null
-[14Feb2025 22:25:25.169] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 21 recipes
-[14Feb2025 22:25:25.646] [main/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {undead_revamp2:entities/theheavy}.pools[2].entries[1].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
-[14Feb2025 22:25:25.647] [main/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {undead_revamp2:entities/slaveman}.pools[3].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
-[14Feb2025 22:25:25.694] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement spartanshields:recipes/spartanshields/basic_mekanists_basic_shield: Unknown item id 'mekanism:energy_tablet'
-[14Feb2025 22:25:25.706] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement spartanshields:recipes/spartanshields/basic_mekanists_tower_shield: Unknown item id 'mekanism:energy_tablet'
-[14Feb2025 22:25:25.757] [main/INFO] [quark/]: [Automatic Recipe Unlock] Removed 3098 recipe advancements
-[14Feb2025 22:25:25.771] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 369 advancements
-[14Feb2025 22:25:25.774] [main/INFO] [slimeknights.mantle.fluid.transfer.FluidContainerTransferManager/]: Loaded 24 dynamic modifiers in 1.171602 ms
-[14Feb2025 22:25:25.817] [main/INFO] [slimeknights.tconstruct.library.modifiers.ModifierManager/]: Loaded 131 dynamic modifiers and 0 modifier redirects in 42.36423 ms
-[14Feb2025 22:25:25.823] [main/INFO] [slimeknights.tconstruct.library.modifiers.ModifierManager/]: Loaded 39 modifier tags for 137 modifiers in 5.668608 ms
-[14Feb2025 22:25:25.824] [main/INFO] [slimeknights.tconstruct.library.modifiers.ModifierManager/]: Loaded 50 enchantment to modifier mappings in 0.808876 ms
-[14Feb2025 22:25:25.826] [main/INFO] [tconstruct/]: Loaded 49 spilling fluids in 1.832303 ms
-[14Feb2025 22:25:25.836] [main/INFO] [quark/]: Modified advancement minecraft:husbandry/wax_on with 2 patches
-[14Feb2025 22:25:25.836] [main/INFO] [quark/]: Modified advancement minecraft:adventure/kill_a_mob with 3 patches
-[14Feb2025 22:25:25.836] [main/INFO] [quark/]: Modified advancement minecraft:husbandry/bred_all_animals with 3 patches
-[14Feb2025 22:25:25.837] [main/INFO] [quark/]: Modified advancement minecraft:adventure/kill_all_mobs with 3 patches
-[14Feb2025 22:25:25.837] [main/INFO] [quark/]: Modified advancement minecraft:husbandry/balanced_diet with 2 patches
-[14Feb2025 22:25:25.837] [main/INFO] [quark/]: Modified advancement minecraft:nether/all_effects with 1 patches
-[14Feb2025 22:25:25.838] [main/INFO] [quark/]: Modified advancement minecraft:husbandry/wax_off with 2 patches
-[14Feb2025 22:25:25.838] [main/INFO] [quark/]: Modified advancement minecraft:adventure/adventuring_time with 1 patches
-[14Feb2025 22:25:25.841] [main/INFO] [quark/]: Modified advancement minecraft:nether/all_potions with 1 patches
-[14Feb2025 22:25:25.853] [main/INFO] [slimeknights.tconstruct.library.materials.definition.MaterialManager/]: Loaded 49 materials in 11.449785 ms
-[14Feb2025 22:25:25.856] [main/INFO] [slimeknights.tconstruct.library.materials.definition.MaterialManager/]: Loaded 1 material tags for 19 materials in 2.64138 ms
-[14Feb2025 22:25:25.868] [main/INFO] [slimeknights.tconstruct.library.materials.stats.MaterialStatsManager/]: 347 stats loaded for 59 materials in 11.865671 ms
-[14Feb2025 22:25:25.884] [main/INFO] [slimeknights.tconstruct.library.materials.traits.MaterialTraitsManager/]: 184 traits loaded for 59 materials in 15.600025 ms
-[14Feb2025 22:25:25.896] [main/INFO] [slimeknights.tconstruct.library.tools.definition.ToolDefinitionLoader/]: Loaded 37 tool definitions in 11.091988 ms
-[14Feb2025 22:25:25.901] [main/INFO] [slimeknights.tconstruct.library.tools.layout.StationSlotLayoutLoader/]: Loaded 19 station slot layouts in 5.670611 ms
-[14Feb2025 22:25:27.547] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.19.2
-[14Feb2025 22:25:27.547] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[14Feb2025 22:25:27.547] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[14Feb2025 22:25:27.547] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[14Feb2025 22:25:27.642] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[14Feb2025 22:25:27.679] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[14Feb2025 22:25:27.767] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[14Feb2025 22:25:27.767] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[14Feb2025 22:25:27.767] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[14Feb2025 22:25:27.768] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[14Feb2025 22:25:27.803] [Server thread/INFO] [Puzzles Lib/]: Loading server config for moblassos
-[14Feb2025 22:25:27.804] [Thread-0/INFO] [Puzzles Lib/]: Reloading server config for moblassos
-[14Feb2025 22:25:27.805] [Thread-0/INFO] [Puzzles Lib/]: Reloading server config for moblassos
-[14Feb2025 22:25:28.010] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[14Feb2025 22:25:28.657] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[14Feb2025 22:25:34.857] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[14Feb2025 22:25:34.858] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[14Feb2025 22:25:34.859] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[14Feb2025 22:25:34.861] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[14Feb2025 22:25:34.862] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[14Feb2025 22:25:34.863] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[14Feb2025 22:25:34.864] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[14Feb2025 22:25:34.865] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[14Feb2025 22:25:34.866] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[14Feb2025 22:25:34.868] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[14Feb2025 22:25:34.870] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[14Feb2025 22:25:34.871] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[14Feb2025 22:25:34.873] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[14Feb2025 22:25:35.160] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[14Feb2025 22:25:35.659] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 17%
-[14Feb2025 22:25:36.163] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 61%
-[14Feb2025 22:25:36.661] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 97%
-[14Feb2025 22:25:36.677] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 8018 ms
-[14Feb2025 22:25:36.678] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (8.896s)! For help, type "help"
-[14Feb2025 22:25:36.719] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[14Feb2025 22:25:36.720] [Server thread/INFO] [com.becks.uniquedungeons.UniqueDungeons/]: HELLO from server starting
-[14Feb2025 22:25:36.730] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {iceandfire:fire_dragon_roost=true, iceandfire:fire_lily=true, iceandfire:spawn_dragon_skeleton_fire=true, iceandfire:lightning_dragon_roost=true, iceandfire:spawn_dragon_skeleton_lightning=true, iceandfire:ice_dragon_roost=true, iceandfire:ice_dragon_cave=true, iceandfire:lightning_dragon_cave=true, iceandfire:cyclops_cave=true, iceandfire:spawn_wandering_cyclops=true, iceandfire:spawn_sea_serpent=true, iceandfire:frost_lily=true, iceandfire:hydra_cave=true, iceandfire:lightning_lily=true, iceandfire:pixie_village=true, iceandfire:myrmex_hive_jungle=true, iceandfire:myrmex_hive_desert=true, iceandfire:silver_ore=true, iceandfire:siren_island=true, iceandfire:spawn_dragon_skeleton_ice=true, iceandfire:spawn_stymphalian_bird=true, iceandfire:fire_dragon_cave=true, iceandfire:sapphire_ore=true, iceandfire:spawn_hippocampus=true, iceandfire:spawn_death_worm=true}
-[14Feb2025 22:25:36.731] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {TROLL_S=true, HIPPOGRYPH=true, AMPHITHERE=true, COCKATRICE=true, TROLL_M=true, DREAD_LICH=true, TROLL_F=true}
-[14Feb2025 22:26:01.189] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
-[14Feb2025 22:26:01.231] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[14Feb2025 22:26:01.233] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[14Feb2025 22:26:01.233] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[14Feb2025 22:26:02.249] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[14Feb2025 22:26:02.824] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[14Feb2025 22:26:02.825] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/deeperdarker:otherside
-[14Feb2025 22:26:02.826] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[14Feb2025 22:26:02.872] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[14Feb2025 22:26:02.872] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[14Feb2025 22:26:02.873] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (otherside): All chunks are saved
-[14Feb2025 22:26:02.873] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[14Feb2025 22:26:02.873] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[14Feb2025 22:36:21.590] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe epicsamurai:source_gem_samruai_chestplate_ritual as it's serializer returned null
+[14Feb2025 22:36:21.596] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe epicsamurai:dye_ars_nouveau_chestplate as it's serializer returned null
+[14Feb2025 22:36:21.604] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe epicsamurai:brass_samruai_boots_mechanical_crafting as it's serializer returned null
+[14Feb2025 22:36:21.618] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 21 recipes
+[14Feb2025 22:36:22.109] [main/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {undead_revamp2:entities/theheavy}.pools[2].entries[1].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[14Feb2025 22:36:22.110] [main/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {undead_revamp2:entities/slaveman}.pools[3].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[14Feb2025 22:36:22.167] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement spartanshields:recipes/spartanshields/basic_mekanists_basic_shield: Unknown item id 'mekanism:energy_tablet'
+[14Feb2025 22:36:22.184] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement spartanshields:recipes/spartanshields/basic_mekanists_tower_shield: Unknown item id 'mekanism:energy_tablet'
+[14Feb2025 22:36:22.244] [main/INFO] [quark/]: [Automatic Recipe Unlock] Removed 3098 recipe advancements
+[14Feb2025 22:36:22.258] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 369 advancements
+[14Feb2025 22:36:22.262] [main/INFO] [slimeknights.mantle.fluid.transfer.FluidContainerTransferManager/]: Loaded 24 dynamic modifiers in 1.14372 ms
+[14Feb2025 22:36:22.301] [main/INFO] [slimeknights.tconstruct.library.modifiers.ModifierManager/]: Loaded 131 dynamic modifiers and 0 modifier redirects in 39.09898 ms
+[14Feb2025 22:36:22.306] [main/INFO] [slimeknights.tconstruct.library.modifiers.ModifierManager/]: Loaded 39 modifier tags for 137 modifiers in 4.596441 ms
+[14Feb2025 22:36:22.307] [main/INFO] [slimeknights.tconstruct.library.modifiers.ModifierManager/]: Loaded 50 enchantment to modifier mappings in 1.021472 ms
+[14Feb2025 22:36:22.311] [main/INFO] [tconstruct/]: Loaded 49 spilling fluids in 2.119718 ms
+[14Feb2025 22:36:22.321] [main/INFO] [quark/]: Modified advancement minecraft:husbandry/wax_on with 2 patches
+[14Feb2025 22:36:22.323] [main/INFO] [quark/]: Modified advancement minecraft:adventure/kill_a_mob with 3 patches
+[14Feb2025 22:36:22.323] [main/INFO] [quark/]: Modified advancement minecraft:husbandry/bred_all_animals with 3 patches
+[14Feb2025 22:36:22.323] [main/INFO] [quark/]: Modified advancement minecraft:adventure/kill_all_mobs with 3 patches
+[14Feb2025 22:36:22.325] [main/INFO] [quark/]: Modified advancement minecraft:husbandry/balanced_diet with 2 patches
+[14Feb2025 22:36:22.325] [main/INFO] [quark/]: Modified advancement minecraft:nether/all_effects with 1 patches
+[14Feb2025 22:36:22.325] [main/INFO] [quark/]: Modified advancement minecraft:husbandry/wax_off with 2 patches
+[14Feb2025 22:36:22.326] [main/INFO] [quark/]: Modified advancement minecraft:adventure/adventuring_time with 1 patches
+[14Feb2025 22:36:22.326] [main/INFO] [quark/]: Modified advancement minecraft:nether/all_potions with 1 patches
+[14Feb2025 22:36:22.332] [main/INFO] [slimeknights.tconstruct.library.materials.definition.MaterialManager/]: Loaded 49 materials in 5.617273 ms
+[14Feb2025 22:36:22.333] [main/INFO] [slimeknights.tconstruct.library.materials.definition.MaterialManager/]: Loaded 1 material tags for 19 materials in 0.994082 ms
+[14Feb2025 22:36:22.342] [main/INFO] [slimeknights.tconstruct.library.materials.stats.MaterialStatsManager/]: 347 stats loaded for 59 materials in 8.656114 ms
+[14Feb2025 22:36:22.352] [main/INFO] [slimeknights.tconstruct.library.materials.traits.MaterialTraitsManager/]: 184 traits loaded for 59 materials in 10.05662 ms
+[14Feb2025 22:36:22.362] [main/INFO] [slimeknights.tconstruct.library.tools.definition.ToolDefinitionLoader/]: Loaded 37 tool definitions in 9.427668 ms
+[14Feb2025 22:36:22.365] [main/INFO] [slimeknights.tconstruct.library.tools.layout.StationSlotLayoutLoader/]: Loaded 19 station slot layouts in 3.197114 ms
+[14Feb2025 22:36:24.020] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.19.2
+[14Feb2025 22:36:24.021] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[14Feb2025 22:36:24.022] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[14Feb2025 22:36:24.022] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[14Feb2025 22:36:24.172] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[14Feb2025 22:36:24.208] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[14Feb2025 22:36:24.339] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[14Feb2025 22:36:24.340] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[14Feb2025 22:36:24.340] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[14Feb2025 22:36:24.340] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[14Feb2025 22:36:24.371] [Server thread/INFO] [Puzzles Lib/]: Loading server config for moblassos
+[14Feb2025 22:36:24.373] [Thread-0/INFO] [Puzzles Lib/]: Reloading server config for moblassos
+[14Feb2025 22:36:24.374] [Thread-0/INFO] [Puzzles Lib/]: Reloading server config for moblassos
+[14Feb2025 22:36:24.498] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[14Feb2025 22:36:25.141] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[14Feb2025 22:36:31.207] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Feb2025 22:36:31.209] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Feb2025 22:36:31.210] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Feb2025 22:36:31.214] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Feb2025 22:36:31.216] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Feb2025 22:36:31.218] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Feb2025 22:36:31.223] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Feb2025 22:36:31.226] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Feb2025 22:36:31.228] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Feb2025 22:36:31.232] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Feb2025 22:36:31.233] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Feb2025 22:36:31.234] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Feb2025 22:36:31.235] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Feb2025 22:36:31.645] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 5%
+[14Feb2025 22:36:32.145] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 35%
+[14Feb2025 22:36:32.701] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 83%
+[14Feb2025 22:36:32.937] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 7795 ms
+[14Feb2025 22:36:32.938] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (8.588s)! For help, type "help"
+[14Feb2025 22:36:32.967] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[14Feb2025 22:36:32.968] [Server thread/INFO] [com.becks.uniquedungeons.UniqueDungeons/]: HELLO from server starting
+[14Feb2025 22:36:32.975] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {iceandfire:fire_dragon_roost=true, iceandfire:fire_lily=true, iceandfire:spawn_dragon_skeleton_fire=true, iceandfire:lightning_dragon_roost=true, iceandfire:spawn_dragon_skeleton_lightning=true, iceandfire:ice_dragon_roost=true, iceandfire:ice_dragon_cave=true, iceandfire:lightning_dragon_cave=true, iceandfire:cyclops_cave=true, iceandfire:spawn_wandering_cyclops=true, iceandfire:spawn_sea_serpent=true, iceandfire:frost_lily=true, iceandfire:hydra_cave=true, iceandfire:lightning_lily=true, iceandfire:pixie_village=true, iceandfire:myrmex_hive_jungle=true, iceandfire:myrmex_hive_desert=true, iceandfire:silver_ore=true, iceandfire:siren_island=true, iceandfire:spawn_dragon_skeleton_ice=true, iceandfire:spawn_stymphalian_bird=true, iceandfire:fire_dragon_cave=true, iceandfire:sapphire_ore=true, iceandfire:spawn_hippocampus=true, iceandfire:spawn_death_worm=true}
+[14Feb2025 22:36:32.976] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {TROLL_S=true, HIPPOGRYPH=true, AMPHITHERE=true, COCKATRICE=true, TROLL_M=true, DREAD_LICH=true, TROLL_F=true}
+[14Feb2025 22:36:33.112] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[14Feb2025 22:36:33.120] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[14Feb2025 22:36:33.121] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[14Feb2025 22:36:33.122] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[14Feb2025 22:36:35.942] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[14Feb2025 22:36:36.732] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[14Feb2025 22:36:36.734] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/deeperdarker:otherside
+[14Feb2025 22:36:36.735] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[14Feb2025 22:36:36.800] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[14Feb2025 22:36:36.800] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[14Feb2025 22:36:36.801] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (otherside): All chunks are saved
+[14Feb2025 22:36:36.801] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[14Feb2025 22:36:36.801] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[14Feb2025 22:36:39.601] [Thread-0/INFO] [Puzzles Lib/]: Reloading server config for moblassos
