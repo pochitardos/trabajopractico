@@ -5516,3 +5516,16 @@ com.google.gson.JsonSyntaxException: Unknown item 'patchouli:guide_book'
 [14Feb2025 20:57:57.793] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: tps<--[HERE]
 [14Feb2025 21:02:06.415] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
 [14Feb2025 21:02:06.430] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[14Feb2025 21:07:06.404] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[14Feb2025 21:07:06.415] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[14Feb2025 21:12:06.407] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[14Feb2025 21:12:06.418] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[14Feb2025 21:14:15.691] [Netty Epoll Server IO #1/DEBUG] [mixin/]: Mixing ClientboundLevelChunkWithLightPacketMixin from antixray.mixins.json into net.minecraft.network.protocol.game.ClientboundLevelChunkWithLightPacket
+[14Feb2025 21:14:15.692] [Netty Epoll Server IO #1/DEBUG] [mixin/]: antixray.mixins.json:ClientboundLevelChunkWithLightPacketMixin: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_16 supports class version 60)
+[14Feb2025 21:14:15.762] [Netty Epoll Server IO #1/DEBUG] [io.netty.util.Recycler/]: -Dio.netty.recycler.maxCapacityPerThread: 4096
+[14Feb2025 21:14:15.762] [Netty Epoll Server IO #1/DEBUG] [io.netty.util.Recycler/]: -Dio.netty.recycler.ratio: 8
+[14Feb2025 21:14:15.762] [Netty Epoll Server IO #1/DEBUG] [io.netty.util.Recycler/]: -Dio.netty.recycler.chunkSize: 32
+[14Feb2025 21:14:15.762] [Netty Epoll Server IO #1/DEBUG] [io.netty.util.Recycler/]: -Dio.netty.recycler.blocking: false
+[14Feb2025 21:14:15.768] [Netty Epoll Server IO #1/DEBUG] [io.netty.buffer.AbstractByteBuf/]: -Dio.netty.buffer.checkAccessible: true
+[14Feb2025 21:14:15.768] [Netty Epoll Server IO #1/DEBUG] [io.netty.buffer.AbstractByteBuf/]: -Dio.netty.buffer.checkBounds: true
+[14Feb2025 21:14:15.769] [Netty Epoll Server IO #1/DEBUG] [io.netty.util.ResourceLeakDetectorFactory/]: Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@6f6082e6
