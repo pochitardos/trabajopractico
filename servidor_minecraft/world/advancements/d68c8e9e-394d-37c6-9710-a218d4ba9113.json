@@ -1,60 +1,37 @@
 {
   "tconstruct:tools/materials_and_you": {
     "criteria": {
-      "crafted_book": "2025-02-15 20:30:16 +0000"
+      "crafted_book": "2025-02-15 20:53:06 +0000"
     },
     "done": true
   },
   "tconstruct:internal/starting_book": {
     "criteria": {
-      "tick": "2025-02-15 20:30:16 +0000"
+      "tick": "2025-02-15 20:53:06 +0000"
     },
     "done": true
   },
   "iceandfire:iceandfire/root": {
     "criteria": {
-      "tick": "2025-02-15 20:30:16 +0000"
+      "tick": "2025-02-15 20:53:06 +0000"
     },
     "done": true
-  },
-  "croptopia:gather_all": {
-    "criteria": {
-      "cantaloupe_seed": "2025-02-15 20:32:11 +0000",
-      "tomatillo_seed": "2025-02-15 20:32:17 +0000",
-      "grape_seed": "2025-02-15 20:32:23 +0000"
-    },
-    "done": false
-  },
-  "croptopia:gather_forest": {
-    "criteria": {
-      "tomatillo_seed": "2025-02-15 20:32:17 +0000",
-      "cantaloupe_seed": "2025-02-15 20:32:11 +0000",
-      "grape_seed": "2025-02-15 20:32:23 +0000"
-    },
-    "done": false
   },
   "undead_revamp2:theundeadchallenges": {
     "criteria": {
-      "theundeadchallenges": "2025-02-15 20:30:16 +0000"
-    },
-    "done": true
-  },
-  "croptopia:getseeds": {
-    "criteria": {
-      "has_seeds": "2025-02-15 20:32:11 +0000"
+      "theundeadchallenges": "2025-02-15 20:53:06 +0000"
     },
     "done": true
   },
   "travelersbackpack:standard_from_custom": {
     "criteria": {
-      "has_the_recipe": "2025-02-15 20:30:16 +0000"
+      "has_the_recipe": "2025-02-15 20:53:06 +0000"
     },
     "done": true
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:river": "2025-02-15 20:36:50 +0000",
-      "minecraft:forest": "2025-02-15 20:30:17 +0000"
+      "minecraft:forest": "2025-02-15 20:53:07 +0000"
     },
     "done": false
   },
